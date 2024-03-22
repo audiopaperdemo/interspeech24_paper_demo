@@ -1,0 +1,402 @@
+[
+    {
+        "timestamp": "20240307_113931_730",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113931_730.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=That+was+fun.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "That was fun."
+    },
+    {
+        "timestamp": "20240307_113933_220",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113933_220.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=Lets+play+another+game.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "Lets play another game."
+    },
+    {
+        "timestamp": "20240307_113935_384",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113935_384.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=This+time+you+are+guessing.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "This time you are guessing."
+    },
+    {
+        "timestamp": "20240307_113937_652",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113937_652.wav",
+        "certainty": 5,
+        "pitch": 0.9,
+        "speaking_rate": 0.8,
+        "say_string": "http://130.237.67.65:5135/speak/?text=+i+am+thinking+about+an+animal.&spk_vec=0.2,0.8&f0=0.9&sr=0.8",
+        "system": " i am thinking about an animal."
+    },
+    {
+        "log_type": "game_start",
+        "timestamp": "20240307_113939_941",
+        "user_id": "5DWZS",
+        "system_persona": "affective",
+        "animal": "lion"
+    },
+    {
+        "timestamp": "20240307_113942_41",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113942_41.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=please+start+asking+me+questions.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "please start asking me questions."
+    },
+    {
+        "type": "asr",
+        "user": "is it able to swim",
+        "asr_processing_time": 2.95,
+        "start_time": "20240307_113945_34",
+        "end_time": "20240307_113948_290"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "",
+        "gpt_processing_time": 3.428
+    },
+    {
+        "timestamp": "20240307_113951_742",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113951_742.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=no+it%27s+not+known+for+swimming.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it's not known for swimming."
+    },
+    {
+        "timestamp": "20240307_113954_545",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_113954_545.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=i%27d+throw+you+a+lifejacket+but+we%27re+on+dry+land+with+this+one.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "i'd throw you a lifejacket but we're on dry land with this one."
+    },
+    {
+        "type": "asr",
+        "user": "is it a carnivore",
+        "asr_processing_time": 4.186,
+        "start_time": "20240307_113959_423",
+        "end_time": "20240307_114003_609"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/hold+on_matcha.wav",
+        "gpt_processing_time": 2.734
+    },
+    {
+        "timestamp": "20240307_114006_412",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114006_412.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=yes+it+is+a+carnivore.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "yes it is a carnivore."
+    },
+    {
+        "timestamp": "20240307_114008_665",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114008_665.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=chomp+chomp.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "chomp chomp."
+    },
+    {
+        "timestamp": "20240307_114010_356",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114010_356.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=you%27ve+got+some+sharp+teeth+on+that+one.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "you've got some sharp teeth on that one."
+    },
+    {
+        "type": "asr",
+        "user": "1 does it have scales",
+        "asr_processing_time": 4.191,
+        "start_time": "20240307_114013_384",
+        "end_time": "20240307_114017_575"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/just+a+second_matcha.wav",
+        "gpt_processing_time": 4.947
+    },
+    {
+        "timestamp": "20240307_114022_595",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114022_595.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=no+it+does+not+have+scales.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it does not have scales."
+    },
+    {
+        "timestamp": "20240307_114025_134",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114025_134.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=looks+like+you%27re+fishing+for+clues+in+the+wrong+pond.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "looks like you're fishing for clues in the wrong pond."
+    },
+    {
+        "type": "asr",
+        "user": "is it a k9",
+        "asr_processing_time": 4.76,
+        "start_time": "20240307_114029_568",
+        "end_time": "20240307_114034_328"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/in+a+jiffy_matcha.wav",
+        "gpt_processing_time": 2.448
+    },
+    {
+        "timestamp": "20240307_114036_95",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114036_95.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=no+it+is+not+a+canine.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "no it is not a canine."
+    },
+    {
+        "timestamp": "20240307_114038_607",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114038_607.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=maybe+try+howling+up+a+different+tree.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "maybe try howling up a different tree."
+    },
+    {
+        "type": "asr",
+        "user": "tree",
+        "asr_processing_time": 1.747,
+        "start_time": "20240307_114041_774",
+        "end_time": "20240307_114043_521"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/lets+see_matcha.wav",
+        "gpt_processing_time": 0.861
+    },
+    {
+        "type": "asr",
+        "user": "is it part of the cat family",
+        "asr_processing_time": 3.934,
+        "start_time": "20240307_114044_453",
+        "end_time": "20240307_114048_387"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "",
+        "gpt_processing_time": 4.728
+    },
+    {
+        "timestamp": "20240307_114053_142",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114053_142.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=yes+it+is+part+of+the+cat+family.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "yes it is part of the cat family."
+    },
+    {
+        "timestamp": "20240307_114056_418",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114056_418.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=purr+fect+you%27re+clawing+your+way+to+the+top.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "purr fect you're clawing your way to the top."
+    },
+    {
+        "type": "asr",
+        "user": "is it known to reside in a jungle",
+        "asr_processing_time": 6.5,
+        "start_time": "20240307_114059_912",
+        "end_time": "20240307_114106_412"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/hard/reflecting+on+that_matcha.wav",
+        "gpt_processing_time": 2.85
+    },
+    {
+        "timestamp": "20240307_114109_355",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114109_355.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=no+it%27s+not+typically+associated+with+the+jungle.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it's not typically associated with the jungle."
+    },
+    {
+        "timestamp": "20240307_114113_422",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114113_422.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=looks+like+the+king+of+the+jungle+moniker+doesn%27t+apply+here.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "looks like the king of the jungle moniker doesn't apply here."
+    },
+    {
+        "type": "asr",
+        "user": "here",
+        "asr_processing_time": 1.558,
+        "start_time": "20240307_114118_194",
+        "end_time": "20240307_114119_752"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/in+a+jiffy_matcha.wav",
+        "gpt_processing_time": 2.005
+    },
+    {
+        "timestamp": "20240307_114121_837",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114121_837.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=no+it+doesn%27t+reside+in+the+jungle.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "no it doesn't reside in the jungle."
+    },
+    {
+        "timestamp": "20240307_114124_916",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114124_916.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=looks+like+you%27re+not+quite+the+king+of+this+particular+guessing+jungle+yet.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "looks like you're not quite the king of this particular guessing jungle yet."
+    },
+    {
+        "type": "asr",
+        "user": "does it live in the savannah",
+        "asr_processing_time": 3.811,
+        "start_time": "20240307_114130_505",
+        "end_time": "20240307_114134_316"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/hard/excuse+me+i+need+to+think+a+bit_matcha.wav",
+        "gpt_processing_time": 5.413
+    },
+    {
+        "timestamp": "20240307_114139_810",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114139_810.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=yes+it+does+reside+in+the+savannah.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "yes it does reside in the savannah."
+    },
+    {
+        "timestamp": "20240307_114142_830",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114142_830.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=hot+hot+hot.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "hot hot hot."
+    },
+    {
+        "timestamp": "20240307_114144_605",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114144_605.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5135/speak/?text=your+instincts+are+on+a+safari+to+success.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "your instincts are on a safari to success."
+    },
+    {
+        "type": "asr",
+        "user": "does it have a main",
+        "asr_processing_time": 3.927,
+        "start_time": "20240307_114148_431",
+        "end_time": "20240307_114152_358"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/lets+see_matcha.wav",
+        "gpt_processing_time": 3.275
+    },
+    {
+        "timestamp": "20240307_114155_722",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114155_722.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=yes+it+does+have+a+mane.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "yes it does have a mane."
+    },
+    {
+        "timestamp": "20240307_114158_16",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114158_16.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=looking+sharp.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "looking sharp."
+    },
+    {
+        "timestamp": "20240307_114159_823",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114159_823.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=you%27re+nearly+the+king+of+this+guessing+game.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "you're nearly the king of this guessing game."
+    },
+    {
+        "type": "asr",
+        "user": "game",
+        "asr_processing_time": 1.56,
+        "start_time": "20240307_114203_171",
+        "end_time": "20240307_114204_731"
+    },
+    {
+        "timestamp": "20240307_113939_941",
+        "filler": "cashed_files/easy/ah_matcha.wav",
+        "gpt_processing_time": 3.919
+    },
+    {
+        "timestamp": "20240307_114208_726",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114208_726.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5135/speak/?text=you+have+asked+10+questions+and+have+to+guess.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you have asked 10 questions and have to guess."
+    },
+    {
+        "timestamp": "20240307_114215_890",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114215_890.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=Yes+it+is+a+lion+you+guessed+correctly.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "Yes it is a lion you guessed correctly."
+    },
+    {
+        "timestamp": "20240307_114219_334",
+        "filename": "par_5DWZS/5DWZS_matcha_3/20240307_114219_334.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5135/speak/?text=This+concludes+this+round+of+the+game.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "This concludes this round of the game."
+    }
+]

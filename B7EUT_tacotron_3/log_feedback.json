@@ -1,0 +1,389 @@
+[
+    {
+        "timestamp": "20240305_160824_21",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160824_21.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=That+was+fun.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "That was fun."
+    },
+    {
+        "timestamp": "20240305_160825_462",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160825_462.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=Lets+play+another+game.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "Lets play another game."
+    },
+    {
+        "timestamp": "20240305_160827_904",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160827_904.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=This+time+you+are+guessing.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "This time you are guessing."
+    },
+    {
+        "timestamp": "20240305_160830_429",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160830_429.wav",
+        "certainty": 5,
+        "pitch": 0.9,
+        "speaking_rate": 0.8,
+        "say_string": "http://130.237.67.65:5133/speak/?text=+i+am+thinking+about+an+animal.&spk_vec=0.2,0.8&f0=0.9&sr=0.8",
+        "system": " i am thinking about an animal."
+    },
+    {
+        "log_type": "game_start",
+        "timestamp": "20240305_160832_944",
+        "user_id": "B7EUT",
+        "system_persona": "affective",
+        "animal": "giraff"
+    },
+    {
+        "type": "asr",
+        "user": "the animal larger than a human",
+        "asr_processing_time": 4.126,
+        "start_time": "20240305_160835_109",
+        "end_time": "20240305_160839_235"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "",
+        "gpt_processing_time": 3.446
+    },
+    {
+        "timestamp": "20240305_160842_700",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160842_700.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+is+larger+than+a+human.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "yes it is larger than a human."
+    },
+    {
+        "timestamp": "20240305_160845_686",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160845_686.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you%27re+not+%27sizing%27+me+up+too+quickly+are+you.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "you're not 'sizing' me up too quickly are you."
+    },
+    {
+        "type": "asr",
+        "user": "uh that's the animal live on land",
+        "asr_processing_time": 5.072,
+        "start_time": "20240305_160849_68",
+        "end_time": "20240305_160854_752"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/lets+see_tacotron.wav",
+        "gpt_processing_time": 5.096
+    },
+    {
+        "timestamp": "20240305_160859_930",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160859_930.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+does+reside+on+land.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "yes it does reside on land."
+    },
+    {
+        "timestamp": "20240305_160902_979",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160902_979.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=absolutely+towering+over+the+competition+with+that+guess.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "absolutely towering over the competition with that guess."
+    },
+    {
+        "type": "asr",
+        "user": "um",
+        "asr_processing_time": 4.7,
+        "start_time": "20240305_160907_508",
+        "end_time": "20240305_160912_208"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/just+a+second_tacotron.wav",
+        "gpt_processing_time": 0.906
+    },
+    {
+        "type": "asr",
+        "user": "second",
+        "asr_processing_time": 1.486,
+        "start_time": "20240305_160913_199",
+        "end_time": "20240305_160914_685"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "",
+        "gpt_processing_time": 5.025
+    },
+    {
+        "timestamp": "20240305_160919_83",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160919_83.wav",
+        "certainty": 4,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+does+reside+on+land.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "yes it does reside on land."
+    },
+    {
+        "timestamp": "20240305_160922_189",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160922_189.wav",
+        "certainty": 4,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you%27re+not+beating+around+the+bush+are+you.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you're not beating around the bush are you."
+    },
+    {
+        "timestamp": "20240305_160925_418",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160925_418.wav",
+        "certainty": 4,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=good+job.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "good job."
+    },
+    {
+        "type": "asr",
+        "user": "yeah is it uh domesticated a domestic animal",
+        "asr_processing_time": 5.869,
+        "start_time": "20240305_160926_606",
+        "end_time": "20240305_160932_475"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/hold+on_tacotron.wav",
+        "gpt_processing_time": 1.916
+    },
+    {
+        "timestamp": "20240305_160934_478",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160934_478.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+it+is+not+a+domestic+animal.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it is not a domestic animal."
+    },
+    {
+        "timestamp": "20240305_160937_607",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160937_607.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=looks+like+someone%27s+barking+up+the+wrong+family+tree.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "looks like someone's barking up the wrong family tree."
+    },
+    {
+        "type": "asr",
+        "user": "3 uh is it uh carnivore",
+        "asr_processing_time": 6.737,
+        "start_time": "20240305_160942_37",
+        "end_time": "20240305_160949_107"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/quick+scan_tacotron.wav",
+        "gpt_processing_time": 2.816
+    },
+    {
+        "timestamp": "20240305_160951_996",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160951_996.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+not+a+carnivore.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "no not a carnivore."
+    },
+    {
+        "timestamp": "20240305_160954_61",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_160954_61.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=uh+you+might+want+to+sharpen+those+claws+of+thought.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "uh you might want to sharpen those claws of thought."
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.064,
+        "start_time": "20240305_160958_288",
+        "end_time": "20240305_161003_352"
+    },
+    {
+        "timestamp": "20240305_161003_363",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161003_363.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you+have+to+say+something.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "is it a lot heavier than a human",
+        "asr_processing_time": 3.73,
+        "start_time": "20240305_161005_266",
+        "end_time": "20240305_161008_996"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/just+a+second_tacotron.wav",
+        "gpt_processing_time": 4.11
+    },
+    {
+        "timestamp": "20240305_161013_695",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161013_695.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+is+significantly+heavier+than+a+human.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "yes it is significantly heavier than a human."
+    },
+    {
+        "timestamp": "20240305_161017_489",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161017_489.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you%27re+definitely+not+lightweight+in+your+questioning.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "you're definitely not lightweight in your questioning."
+    },
+    {
+        "type": "asr",
+        "user": "is it an elephant",
+        "asr_processing_time": 3.922,
+        "start_time": "20240305_161021_477",
+        "end_time": "20240305_161025_399"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/hold+on_tacotron.wav",
+        "gpt_processing_time": 2.865
+    },
+    {
+        "timestamp": "20240305_161028_45",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161028_45.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+your+guess+is+not+correct.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no your guess is not correct."
+    },
+    {
+        "timestamp": "20240305_161031_152",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161031_152.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=keep+trunk+ting+along+with+those+questions.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "keep trunk ting along with those questions."
+    },
+    {
+        "type": "asr",
+        "user": "okay",
+        "asr_processing_time": 4.318,
+        "start_time": "20240305_161034_603",
+        "end_time": "20240305_161038_921"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/easy/quick+scan_tacotron.wav",
+        "gpt_processing_time": 1.168
+    },
+    {
+        "type": "asr",
+        "user": "does uh is the animal dangerous to humans",
+        "asr_processing_time": 7.3,
+        "start_time": "20240305_161040_160",
+        "end_time": "20240305_161047_460"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "",
+        "gpt_processing_time": 2.879
+    },
+    {
+        "timestamp": "20240305_161050_366",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161050_366.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+it%27s+not+considered+dangerous+to+humans.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "no it's not considered dangerous to humans."
+    },
+    {
+        "timestamp": "20240305_161054_540",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161054_540.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=don%27t+worry+you+won%27t+need+any+armor+for+this+one.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "don't worry you won't need any armor for this one."
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.083,
+        "start_time": "20240305_161058_307",
+        "end_time": "20240305_161103_390"
+    },
+    {
+        "timestamp": "20240305_161103_401",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161103_401.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you+have+to+say+something.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "the animal have any patterns on itself",
+        "asr_processing_time": 4.818,
+        "start_time": "20240305_161105_307",
+        "end_time": "20240305_161110_125"
+    },
+    {
+        "timestamp": "20240305_160832_944",
+        "filler": "cashed_files/hard/reflecting+on+that_tacotron.wav",
+        "gpt_processing_time": 12.564
+    },
+    {
+        "timestamp": "20240305_161122_764",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161122_764.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you+have+asked+10+questions+and+have+to+guess.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you have asked 10 questions and have to guess."
+    },
+    {
+        "timestamp": "20240305_161129_978",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161129_978.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=I+am+sorry+you+guessed+wrong.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "I am sorry you guessed wrong."
+    },
+    {
+        "timestamp": "20240305_161132_831",
+        "filename": "par_B7EUT/B7EUT_tacotron_3/20240305_161132_831.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=This+concludes+this+round+of+the+game.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "This concludes this round of the game."
+    }
+]

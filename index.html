@@ -1,141 +1,2323 @@
 <html>
 <head>
-<title>
-   Home
-  </title>
-<script src="audio_player.js">
-</script>
+<meta charset="UTF-8"> <title>Where's the uh, hesitation? The interplay between filled pause location, speech rate and fundamental frequency</title>
+<link rel="stylesheet" href="../stylesheet.css">
+<style>
+        .tab {
+            display: inline-block;
+            margin-left: 44px;
+        }
+		.tab2 {
+            display: inline-block;
+            margin-left: 18px;
+        }
+</style>
 </head>
-<!-- Make a table-->
 <body>
-<header class="page-header" role="banner">
-<h1>
-      Contextual Interactive Evaluation of TTS Models in Dialogue Systems
-   </h1>
-<h2>
-    (In submission INTERSPEECH 2024)
-   </h2>
-</header>
-<div class="textbox_element" id="sec1_div">
-<h3>
-    Synthesized samples:
-   </h3>
-</div>
-<div class="table_element" id="table1_div">
-<table class="table table-striped table-bordered table-hover" id="wav_table">
+<article> <header> <h1>Contextual Interactive Evaluation of TTS Models in Dialogue Systems</h1> </header> </article>
+<h3>Anonymous</h3>
+<h3>Submitted to Interspeech 2024</h3>
+
+<p> <i> </i> </p>
+
+<p> 
+<b>In this paper we evaluate our conversational TTS model with prosody control in a contextual interactive setting. <br>
+In order to do this we developed a "20 question" game using GPT-4 as a back-end, Google ASR and a set of evaluated TTS models.<br>
+We also develoved an interaction manager that kept track of the progress in the game
+and controlled the prosodic realization accordingly.<br>
+In the first table we illustrate this prosody control in two example sentances. </b>
+</p>
+<p>
+<table> <tbody>
 <tr>
-<td>  
-      <h4>
-      Matcha-TTS
-      </h4>
-     </td>
-<td>
-      <h4>
-      Tacotron2
-      </h4>
-     </td>
-<td>
-      <h4>
-      Tacotron2-context-adapted
-      </h4>
-     </td>
+<td style="width:100px"><center><h3>Bad progress</h3></center></td>
+<td style="width:100px"> </td>
+<td style="width:100px"> </td>
+<td style="width:100px"><center><h3>Moderate progress</h3></center></td>
+<td style="width:100px"> </td>
+<td style="width:100px"> </td>
+<td style="width:100px"><center><h3>Good progress</h3></center></td>
 </tr>
+
 <tr>
-<td>
-      sample 0
-      <audio controls="" id="matcha_0" src="wavs/matcha_0.wav" volume=0.2>
-      </audio>
-      <br/>
-      sample 1
-      <audio controls="" id="matcha_1" src="wavs/matcha_1.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 2
-      <audio controls="" id="matcha_2" src="wavs/matcha_2.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 3
-      <audio controls="" id="matcha_3" src="wavs/matcha_3.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 4
-      <audio controls="" id="matcha_4" src="wavs/matcha_4.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 5
-      <audio controls="" id="matcha_5" src="wavs/matcha_5.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 6
-      <audio controls="" id="matcha_6" src="wavs/matcha_6.wav" volume="0.2">
-      </audio>
-<br/>
-</td>
-<td>
-      sample 0
-      <audio controls="" id="tacotron_0" src="wavs/tacotron_0.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 1
-      <audio controls="" id="tacotron_1" src="wavs/tacotron_1.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 2
-      <audio controls="" id="tacotron_2" src="wavs/tacotron_2.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 3
-      <audio controls="" id="tacotron_3" src="wavs/tacotron_3.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 4
-      <audio controls="" id="tacotron_4" src="wavs/tacotron_4.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 5
-      <audio controls="" id="tacotron_5" src="wavs/tacotron_5.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 6
-      <audio controls="" id="tacotron_6" src="wavs/tacotron_6.wav" volume="0.2">
-      </audio>
-</td>
-<td>
-      sample 0
-      <audio controls="" id="tacotron_prosody_0" src="wavs/tacotron_prosody_0.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 1
-      <audio controls="" id="tacotron_prosody_1" src="wavs/tacotron_prosody_1.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 2
-      <audio controls="" id="tacotron_prosody_2" src="wavs/tacotron_prosody_2.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 3
-      <audio controls="" id="tacotron_prosody_3" src="wavs/tacotron_prosody_3.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 4
-      <audio controls="" id="tacotron_prosody_4" src="wavs/tacotron_prosody_4.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 5
-      <audio controls="" id="tacotron_prosody_5" src="wavs/tacotron_prosody_5.wav" volume="0.2">
-      </audio>
-      <br/>
-      sample 6
-      <audio controls="" id="tacotron_prosody_6" src="wavs/tacotron_prosody_6.wav" volume="0.2">
-      </audio>
-<br/>
-</td>
-</td>
+    <td style="height:40px;width:100px;background:#F8696B"> </td>
+    <td style="height:40px;width:100px;background:#FB9774"> </td>
+    <td style="height:40px;width:100px;background:#FDC37D"> </td>
+    <td style="height:40px;width:100px;background:#FFEA84"> </td>
+    <td style="height:40px;width:100px;background:#D6DF81"> </td>
+    <td style="height:40px;width:100px;background:#95CC7D"> </td>
+<td style="height:40px;width:100px;background:#63BE7B"> </td>
 </tr>
+</tbody>
+</table> 
+<p>
+
+<table> <tbody>
+<br/>
+<tr>
+<td nowrap> </td>
+<td><h3>Speaking style</h3></td>
+<td><h3>Positive text</h3></td>
+<td><h3>Negative text</h3></td>
+</tr>
+
+
+<tr>
+<td colspan="3"><i>
+</tr>
+
+
+
+<td nowrap> </td>
+<td><b>Slow speech rate and low pitch</b></td>
+<td style="height:40px;background:#F8696B"><audio controls  style="width: 200px;"><source src="interesting_01_12_-11_-10.wav"></audio> </td>
+<td style="height:40px;background:#F8696B"><audio controls  style="width: 200px;"><source src="sorry_01_12_-11_-09.wav"></audio> </td></tr>
+
+<tr>
+<td colspan="3"><i>
+</tr>
+
+<td nowrap> </td>
+<td><b>Slower speech rate and lower pitch</b></td>
+<td style="height:40px;background:#FDC37D"><audio controls  style="width: 200px;"><source src="interesting_02_10_-06_-04.wav"></audio> </td>
+<td style="height:40px;background:#FDC37D"><audio controls  style="width: 200px;"><source src="sorry_02_10_-06_-04.wav"></audio> </td></tr>
+
+<tr>
+<td colspan="3"><i>
+</tr>
+
+<td nowrap> </td>
+<td><b>moderate speech rate and pitch</b></td>
+<td style="height:40px;background:#FFEA84"><audio controls  style="width: 200px;"><source src="interesting_025_09_-03_-02.wav"></audio> </td>
+<td style="height:40px;background:#FFEA84"><audio controls  style="width: 200px;"><source src="sorry_02_10_0_-02.wav"></audio> </td></tr>
+
+
+<tr>
+<td colspan="3"><i>
+</tr>
+
+
+
+<td nowrap> </td>
+<td><b>higher speech rate and higher pitch</b></td>
+<td style="height:40px;background:#D6DF81"><audio controls style="width:200px"><source src="interesting_02_10_06_01.wav"></audio> </td>
+<td style="height:40px;background:#D6DF81"><audio controls  style="width: 200px;"><source src="sorry_02_10_06_00.wav"></audio> </td></tr>
+
+<tr>
+<td colspan="3"><i>
+</tr>
+
+<td nowrap> </td>
+<td><b>high speech rate and high pitch</b></td>
+<td style="height:40px;background:#63BE7B"><audio controls  style="width: 200px;"><source src="intersting_02_12_12_02.wav"></audio> </td>
+<td style="height:40px;background:#63BE7B"><audio controls  style="width: 200px;"><source src="sorry_015_11_09_02.wav"></audio> </td></tr>
 </table>
-<script>
-      set_default_vol_to_all()
-</script>
-</div>
+<hr>
+
+<p><b>Using a "20 questions" animal guessing game we performed an evalaution of a Tacotron 2 TTS voice with prosody control (TTS-Pros), <br> 
+    controlling speaking style (from read to conversational) and prosody (mean pitch and speaking rate)<br>
+    We compared it with a Tacotron voice without prosody control (TTS-T2) and a Matcha TTS voice (TTS-Matcha).<br>
+    In the study 21 subjects were invited to our smart home lab to play the animal guessing game.<br>
+    In the game the users and system took turn thinking about an animal or asking questions and guessing.<br>
+    Each user played 4 games with the same system equipped with one of the three evaluated TTS systems. <br>
+    Below are some examples of these interactions. For data privacy protecition, only ASR transcript of the user input is included. 
+    </b></p>
+    <hr>
+    <H2>Tacotron with prosody control, System guessing</H2>
+    <table> <tbody>
+        <tr>
+        <td style="width:150px"><h3>Time (start-end)</h3></td>
+        <td style="width:100px"><h3>Speaker</h3></td>
+        <td style="width:100px"><h3>Audio</h3></td>
+        <td style="width:450px"><h3>Text</h3></td>
+        </tr>
+        <tr>
+            <td>
+            00:00:04,096 - 00:00:05,798
+            </td>
+            <td>
+            TTS-Pros: 
+            </td>
+            <td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;">
+                <source src="ILN3X_tacotron_prosody_0/20240304_142449_808.wav"></audio> </td>
+            <td>
+            Hi there Lets play 10 questions.
+            </td>
+            </tr>
+    
+        <tr>
+    <td>
+    00:00:06,096 - 00:00:08,798
+    </td>
+    <td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142454_960.wav"></audio> </td>
+    <td>
+    Is the animal you're thinking of typically kept as a pet?
+    </td>
+    </tr>
+    
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:00:09,638 -- 00:00:09,858
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Yes</b>
+    </td></tr>
+    <tr><td>
+    00:00:12,359 -- 00:00:13,119
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142501_29.wav"></audio> </td>
+    <td>
+    Ah, fantastic.
+    </td>
+    </tr>
+    <tr><td>
+    00:00:13,640 -- 00:00:14,820
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142502_730.wav"></audio> </td>
+    <td>
+    That certainly narrows it down.
+    </td>
+    </tr>
+    <tr><td>
+    00:00:22,584 -- 00:00:25,825
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142511_359.wav"></audio> </td>
+    <td>
+    Is the animal you're thinking of small enough to be held in your arms?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:00:27,406 -- 00:00:27,906
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Of course, yes.</b>
+    </td></tr>
+    <tr><td>
+    00:00:30,069 -- 00:00:31,991
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142519_06.wav"></audio> </td>
+    <td>
+    Oh wonderful that narrows it down quite a bit.
+    </td>
+    </tr>
+    <tr><td>
+    <tr><td>
+    00:00:36,615 -- 00:00:38,336
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142525_570.wav"></audio> </td>
+    <td>
+    Is this animal a type of rodent?</td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:00:40,878 -- 00:00:41,739
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>I'm not quite sure.</b>
+    </td></tr>
+    <tr><td>
+    00:00:41,759 -- 00:00:46,063
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142532_908.wav"></audio> </td>
+    <td>
+    Okay, so then back to the drawing board it seems.
+    </td>
+    </tr>
+    <tr><td>
+    00:00:49,486 -- 00:00:50,627
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142538_553.wav"></audio> </td>
+    <td>
+    Does this animal have fur?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:00:51,548 -- 00:00:51,748
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Yes.</b>
+    </td></tr>
+    <tr><td>
+    00:00:54,210 -- 00:00:54,830
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142542_851.wav"></audio> </td>
+    <td>
+    Ah, splendid.
+    </td>
+    </tr>
+    <tr><td>
+    00:00:56,712 -- 00:00:57,573
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142545_875.wav"></audio> </td>
+    <td>
+    That narrows it down.
+    </td>
+    </tr>
+    <tr><td>
+    00:01:01,428 -- 00:01:02,549
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142550_502.wav"></audio> </td>
+    <td>
+    Does this animal have fur?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:03,630 -- 00:01:03,850
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Yes!</b>
+    </td></tr>
+    <tr><td>
+    00:01:06,192 -- 00:01:06,792
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142555_71.wav"></audio> </td>
+    <td>
+    Ah, that's great.
+    </td>
+    </tr>
+    <tr><td>
+    00:01:07,413 -- 00:01:08,614
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142556_566.wav"></audio> </td>
+    <td>
+    Seems like I'm getting closer.
+    </td>
+    </tr>
+    <tr><td>
+    00:01:14,759 -- 00:01:16,520
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142603_561.wav"></audio> </td>
+    <td>
+    Is it known for its ability to purr?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:20,444 -- 00:01:21,444
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Can you repeat that again?</b>
+    </td></tr>
+    <tr><td>
+    00:01:23,626 -- 00:01:25,888
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142612_498.wav"></audio> </td>
+    <td>
+    Is it known for its ability to purr?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:26,769 -- 00:01:35,342
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>To purr? What does that mean? I'm gonna skip this.</b>
+    </td></tr>
+    <tr><td>
+    00:01:31,921 -- 00:01:35,342
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142620_734.wav"></audio> </td>
+    <td>
+    Is the animal primarily a carnivore known for eating meat?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:35,982 -- 00:01:37,502
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>Noo, I don't think so.</b>
+    </td></tr>
+    <tr><td>
+    00:01:39,843 -- 00:01:40,283
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142628_624.wav"></audio> </td>
+    <td>
+    Uh, no?
+    </td>
+    </tr>
+    <tr><td>
+    00:01:40,923 -- 00:01:43,084
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142629_813.wav"></audio> </td>
+    <td>
+    Alright, I need to consider other options.
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:43,724 -- 00:01:45,645
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>I mean, yes, but not raw meat.</b>
+    </td></tr>
+    <tr><td>
+    00:01:48,186 -- 00:01:49,286
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142637_292.wav"></audio> </td>
+    <td>
+    Is it a type of bird?
+    </td>
+    </tr>
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:01:50,907 -- 00:01:51,307
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>No.</b>
+    </td></tr>
+    <tr><td>
+    00:01:51,327 -- 00:01:57,869
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FB9774">
+    <audio controls  style="width: 100px;">
+        <source src="ILN3X_tacotron_prosody_0/20240304_142642_386.wav"></audio> </td>
+    <td>
+    Oof I thought I was out to do something interesting let's see what else could it be?
+    </td>
+    </tr>
+    <tr><td>
+    00:02:02,540 -- 00:02:04,862
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142651_437.wav"></audio> </td>
+    <td>
+    Does this animal commonly reside indoors?
+    </td>
+    </tr>
+    
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:02:05,402 -- 00:02:11,286
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>yes yes uh both but more or less indoor yeah</b>
+    </td></tr>
+    <tr><td>
+    00:02:11,546 -- 00:02:12,667
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142700_29.wav"></audio> </td>
+    <td>
+    Phew okay I'm getting warmer with this.
+    </td>
+    </tr>
+    <tr><td>
+    00:02:17,610 -- 00:02:22,113
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142706_247.wav"></audio> </td>
+    <td>
+    Is this animal prone to climbing or jumping onto elevated surfaces like furniture?
+    </td>
+    </tr>
+    
+    <tr><td colspan="4"><hr></td></tr>
+    <tr><td>
+    00:02:24,815 -- 00:02:33,115
+    </td><td>
+    <b>USER: </b>
+    </td><td></td><td>
+    <b>it depends on what species species</b>
+    </td></tr>
+    <tr><td>
+    00:02:39,785 -- 00:02:43,010
+    </td><td>
+    TTS-Pros: 
+    </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+    <source src="ILN3X_tacotron_prosody_0/20240304_142728_539.wav"></audio> </td>
+    <td>
+    I have asked my questions and have failed to guess correctly.
+    </td>
+    </tr>
+    
+    
+    </tbody>
+    </table> 
+    <hr>
+
+    <H2>Tacotron with prosody control, User guessing</H2>
+    <table> <tbody>
+        <tr>
+        <td style="width:200px"><h3>Time (start-end)</h3></td>
+        <td style="width:100px"><h3>Speaker</h3></td>
+        <td style="width:100px"><h3>Audio</h3></td>
+        <td style="width:500px"><h3>Text</h3></td>
+        </tr>
+<tr>
+<td>
+00:05,754  00:07,134
+</td>
+<td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_093950_22.wav"></audio> </td>
+<td>
+I am thinking about an animal.
+</td>
+</tr><tr><td>
+00:11,537 - 00:13,117
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_093955_902.wav"></audio> </td>
+<td>
+Please start asking me questions.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+00:15,879 - 00:17,180
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it have four legs?</b>
+</td></tr>
+<tr><td>
+00:21,822 - 00:23,123
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094006_126.wav"></audio> </td>
+<td>
+No, it does not have four legs.
+</td>
+</tr>
+<tr><td>
+00:24,103 - 00:26,825
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094008_208.wav"></audio> </td>
+<td>
+Keep on your toes. You might just stumble on the answer.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+00:27,219 - 00:28,100
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>sir</b>
+</td></tr>
+<tr><td>
+00:28,926 - 00:29,026
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="easy/uhm_tacotron_slow_low.wav"></audio> </td>
+<td>
+Um...
+</td>
+</tr>
+<tr><td>
+<tr><td>
+00:35,698 - 00:39,219
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094019_558.wav"></audio> </td>
+<td>
+Looks like you took a tiny misstep there, don't trip over your own questions.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+00:39,219 - 00:45,100
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>/SILENCE/</b>
+</td></tr>
+<tr><td>
+00:45,100 - 00:46,001
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094029_514.wav"></audio> </td>
+<td>
+You have to say something?
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+00:46,741 - 00:48,621
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it have more than four legs?</b>
+</td></tr>
+<tr><td>
+00:53,102 - 00:54,923
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#F8696B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094037_284.wav"></audio> </td>
+<td>
+No, it does not have more than four legs.
+</td>
+</tr>
+<tr><td>
+00:56,163 - 00:58,944
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#F8696B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094040_199.wav"></audio> </td>
+<td>
+Definitely not crawling with possibilities, are we?
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+01:03,740 - 01:05,001
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a reptile?</b>
+</td></tr>
+<tr><td>
+01:05,101 - 01:06,001
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094049_467.wav"></audio> </td>
+<td>
+You have to say something.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+01:10,623 - 01:11,603
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a reptile?</b>
+</td></tr>
+<tr><td>
+01:13,224 - 01:14,144
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="easy/just+a+second_tacotron_slow_low.wav"></audio> </td>
+<td>
+Just a second.
+</td>
+</tr>
+<tr><td>
+01:16,605 - 01:17,865
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#F8696B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094100_751.wav"></audio> </td>
+<td>
+No, it is not a reptile.
+</td>
+</tr>
+<tr><td>
+01:23,608 - 01:27,009
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#F8696B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094103_112.wav"></audio> </td>
+<td>
+guess we're not slithering towards the answer this time.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+01:34,349 - 01:35,790
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it live in the water?</b>
+</td></tr>
+<tr><td>
+01:37,370 - 01:39,071
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="hard/engaging+deeper+thought_tacotron_slow_low.wav"></audio> </td>
+<td>
+Engaging deeper thought.
+</td>
+</tr>
+<tr><td>
+01:40,071 - 01:41,411
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094124_395.wav"></audio> </td>
+<td>
+Yes, it resides in the water.
+</td>
+</tr>
+<tr><td>
+01:42,312 - 01:43,812
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094126_690.wav"></audio> </td>
+<td>
+You're not floundering anymore.
+</td>
+</tr>
+<tr><td>
+01:44,572 - 01:45,833
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094129_11.wav"></audio> </td>
+<td>
+Keep swimming for the answer.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+01:46,973 - 01:48,513
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a type of fish?</b>
+</td></tr>
+<tr><td>
+01:49,370 - 01:50,071
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="easy/lets+see_tacotron_slow_high.wav"></audio> </td>
+<td>
+Let's see
+</td>
+</tr>
+<tr><td>
+01:52,654 - 01:54,215
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094136_923.wav"></audio> </td>
+<td>
+Yes, you're asking if it's a fish.
+</td>
+</tr>
+<tr><td>
+01:55,195 - 01:58,096
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094139_382.wav"></audio> </td>
+<td>
+Cast a wider net, but you're swimming in the right school now.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+02:08,692 - 02:10,714
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it larger than a cat?</b>
+</td></tr>
+<tr><td>
+02:12,535 - 02:13,075
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="easy/hold+on_tacotron_slow_high.wav"></audio> </td>
+<td>
+Hold on.
+</td>
+</tr>
+<tr><td>
+02:15,517 - 02:17,158
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094159_854.wav"></audio> </td>
+<td>
+Yes, it is larger than a cat.
+</td>
+</tr>
+<tr><td>
+02:18,179 - 02:21,021
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094202_302.wav"></audio> </td>
+<td>
+Seems like you're not fishing for compliments, just bigger fish.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+02:26,805 - 02:29,047
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Would you consider this animal dangerous?</b>
+</td></tr>
+<tr><td>
+02:30,788 - 02:31,368
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;"><source src="easy/in+a+jiffy_tacotron_slow_high.wav"></audio> </td>
+<td>
+In a jiffy.
+</td>
+</tr>
+<tr><td>
+02:33,390 - 02:34,811
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094217_650.wav"></audio> </td>
+<td>
+Yes, it is considered dangerous.
+</td>
+</tr>
+<tr><td>
+02:35,836 - 02:38,418
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094219_945.wav"></audio> </td>
+<td>
+Careful now, don't bite off more than you can chew with your guesses.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+02:41,940 - 02:44,701
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it extra dangerous for surfers?</b>
+</td></tr>
+<tr><td>
+02:46,823 - 02:47,463
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;"><source src="hard/uh+let+me+see_tacotron_slow_low.wav"></audio> </td>
+<td>
+uh, let me see.
+</td>
+</tr>
+<tr><td>
+02:51,545 - 02:53,707
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094235_744.wav"></audio> </td>
+<td>
+Yes, it is particularly risky for those who surf.
+</td>
+</tr>
+<tr><td>
+02:54,547 - 02:56,589
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094238_867.wav"></audio> </td>
+<td>
+You're definitely riding the wave to success now.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+03:02,092 - 03:03,733
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it have very many teeth?</b>
+</td></tr>
+<tr><td>
+03:05,666 - 03:06,227
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;"><source src="easy/in+a+jiffy_tacotron_slow_high.wav"></audio> </td>
+<td>
+in a jiffy.
+</td>
+</tr>
+<tr><td>
+03:07,871 - 03:09,676
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094252_208.wav"></audio> </td>
+<td>
+You have asked ten questions and have to guess.
+</td>
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+03:10,678 - 03:11,500
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a shark?</b>
+</td></tr>
+<tr><td>
+03:13,906 - 03:15,710
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094258_178.wav"></audio> </td>
+<td>
+Yes, it is a shark, you guessed correctly.
+</td>
+</tr>
+<tr><td>
+03:16,612 - 00:03:18,316
+</td><td>
+TTS-Pros: 
+</td>
+<td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;"><source src="0GAII_tacotron_prosody_3/20240308_094300_904.wav"></audio> </td>
+<td>
+This concludes this round of the game.
+</td>
+</tr>
+
+</tbody>
+</table> 
+
+<hr>
+
+
+<H2>Tacotron, User guessing</H2>
+
+<table> <tbody>
+<tr>
+<td style="width:150px"><h3>Time (start-end)</h3></td>
+<td style="width:100px"><h3>Speaker</h3></td>
+<td style="width:100px"><h3>Audio</h3></td>
+<td style="width:450px"><h3>Text</h3></td>
+</tr>
+<tr>
+<td>
+    00:00:07,469 -- 00:00:09,070
+</td>
+<td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160830_429.wav"></audio> </td>
+<td>
+    I am thinking about an animal.
+</td>
+</tr>
+
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:00:11,752 -- 00:00:13,974
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is the animal larger than a human?</b>
+</td></tr>
+<tr><td>
+    00:00:19,697 -- 00:00:21,859
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160842_700.wav"></audio> </td>
+<td>
+    Yes, it is larger than a human.
+</td>
+</tr>
+<tr><td>
+    00:00:22,699 -- 00:00:25,201
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160845_686.wav"></audio> </td>
+<td>
+    You're not sizing me up to quickly, are you?
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:00:28,143 -- 00:00:29,524
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does the animal live on land?</b>
+</td></tr>
+<tr><td>
+    00:00:31,167 -- 00:00:31,707
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/lets+see_tacotron.wav"></audio> </td>
+<td>
+    Let's see.
+</td>
+</tr>
+
+<tr><td>
+    00:00:36,948 -- 00:00:39,069
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160859_930.wav"></audio> </td>
+<td>
+    Yes, it does reside on land.
+</td>
+</tr>
+
+<tr><td>
+    00:00:40,269 -- 00:00:43,550
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160902_979.wav"></audio> </td>
+<td>
+    Absolutely towering over the competition with that guess.
+</td>
+</tr>
+
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:04,378 -- 00:01:07,259
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>yeah is it uh domesticated a domestic animal</b>
+</td></tr>
+<tr><td>
+    00:01:08,760 -- 00:01:09,300
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/hold+on_tacotron.wav"></audio> </td>
+<td>
+    Hold on.
+</td>
+</tr>
+
+<tr><td>
+    00:01:11,481 -- 00:01:13,703
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:##999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160934_478.wav"></audio> </td>
+<td>
+    No, it is not a domestic animal.
+</td>
+</tr>
+
+<tr><td>
+    00:01:14,803 -- 00:01:18,125
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160937_607.wav"></audio> </td>
+<td>
+    Looks like someone's barking up the wrong family tree.
+</td>
+</tr>
+
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:22,227 -- 00:01:23,848
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>uh is it uh carnivore</b>
+</td></tr>
+
+<tr><td>
+    00:01:25,369 -- 00:01:26,009
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/quick+scan_tacotron.wav"></audio> </td>
+<td>
+    Quick scan.
+</td>
+</tr>
+<tr><td>
+    00:01:28,835 -- 00:01:30,116
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160951_996.wav"></audio> </td>
+<td>
+    No, not a carnivore.
+</td>
+</tr>
+<tr><td>
+    00:01:31,477 -- 00:01:34,319
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_160954_61.wav"></audio> </td>
+<td>
+    uh you might want to sharpen those claws of thought.
+
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:34,319 -- 00:01:40,123
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>/SILENCE/</b>
+</td></tr>
+
+<tr><td>
+    00:01:40,123 -- 00:01:41,284
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161003_363.wav"></audio> </td>
+<td>
+    You have to say something.
+</td>
+</tr>
+
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:41,304 -- 00:01:43,705
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a lot heavier than a human?</b>
+</td></tr>
+
+<tr><td>
+    00:01:45,286 -- 00:01:46,207
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/just+a+second_tacotron.wav"></audio> </td>
+<td>
+    Just a second.
+</td>
+</tr>
+
+<tr><td>
+    00:01:50,730 -- 00:01:53,512
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161013_695.wav"></audio> </td>
+<td>
+    Yes, it is significantly heavier than a human.
+</td>
+</tr>
+
+<tr><td>
+    00:01:54,560 -- 00:01:57,581
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161017_489.wav"></audio> </td>
+<td>
+    You're definitely not lightweight in your questioning.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:58,781 -- 00:02:00,121
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it an elephant?</b>
+</td></tr>
+
+<tr><td>
+    00:02:01,702 -- 00:02:02,202
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/hold+on_tacotron.wav"></audio> </td>
+<td>
+    Hold on.
+</td>
+</tr>
+
+<tr><td>
+    00:02:04,982 -- 00:02:07,183
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161028_45.wav"></audio> </td>
+<td>
+    No, your guess is not correct.
+</td>
+</tr>
+
+<tr><td>
+    00:02:08,063 -- 00:02:10,623
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161031_152.wav"></audio> </td>
+<td>
+    keep trunk ting along with those questions.
+
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:02:18,414 -- 00:02:19,414
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>does uh is the animal dangerous to humans</b>
+</td></tr>
+<tr><td>
+    00:02:15,164 -- 00:02:15,885
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/quick+scan_tacotron.wav"></audio> </td>
+<td>
+    Quick scan.
+</td>
+</tr>
+
+<tr><td>
+    00:02:27,472 -- 00:02:30,533
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161050_366.wav"></audio> </td>
+<td>
+    No, it's not considered dangerous to humans.
+</td>
+</tr>
+
+<tr><td>
+    00:02:31,553 -- 00:02:34,394
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161054_540.wav"></audio> </td>
+<td>
+    Don't worry, you won't need any armor for this one.
+</td>
+</tr>
+
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:02:39,916 -- 00:02:44,797
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does the animal have any patterns on itself?</b>
+</td></tr>
+
+<tr><td>
+    00:02:46,458 -- 00:02:47,618
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="hard/reflecting+on+that_tacotron.wav"></audio> </td>
+<td>
+    Reflecting on that.
+</td>
+</tr>
+
+<tr><td>
+    00:02:59,710 -- 00:03:02,355
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161122_764.wav"></audio> </td>
+<td>
+    You have asked 10 questions and have to guess.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:03:03,076 -- 00:03:04,539
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>It's the animal, a giraffe.</b>
+</td></tr>
+
+<tr><td>
+    00:03:06,923 -- 00:03:08,867
+</td><td>
+TTS-T2: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="B7EUT_tacotron_3/20240305_161129_978.wav"></audio> </td>
+<td>
+    I am sorry you guessed wrong.
+</td>
+</tr>
+
+</tbody>
+</table> 
+<hr>
+
+<H2>Matcha, User guessing</H2>
+
+<table> <tbody>
+<tr>
+<td style="width:150px"><h3>Time (start-end)</h3></td>
+<td style="width:100px"><h3>Speaker</h3></td>
+<td style="width:100px"><h3>Audio</h3></td>
+<td style="width:450px"><h3>Text</h3></td>
+</tr>
+<tr>
+<td>
+    00:00:06,915 -- 00:00:08,436
+</td>
+<td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_113937_652.wav"></audio> </td>
+<td>
+    I am thinking about an animal.
+</td>
+</tr>
+
+<tr>
+<td>
+    00:00:11,218 -- 00:00:13,459
+</td>
+<td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_113942_41.wav"></audio> </td>
+<td>
+    Please start asking me questions.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:00:14,240 -- 00:00:15,320
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it able to swim?</b>
+</td></tr>
+<tr><td>
+    00:00:21,024 -- 00:00:23,005
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_113951_742.wav"></audio> </td>
+<td>
+    No, it's not known for swimming.
+</td>
+</tr>
+<tr><td>
+    00:00:23,926 -- 00:00:27,928
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_113954_545.wav"></audio> </td>
+<td>
+    I'd throw you a life jacket, but we're on dry land with this one.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:00:29,645 -- 00:00:30,525
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a carnivore?</b>
+</td></tr>
+<tr><td>
+    00:00:32,266 -- 00:00:32,926
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/hold+on_matcha.wav"></audio> </td>
+<td>
+    Hold on.
+</td>
+</tr>
+
+<tr><td>
+    00:00:35,647 -- 00:00:37,147
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114006_412.wav"></audio> </td>
+<td>
+    Yes, it is a carnivore.</td>
+</tr>
+
+<tr><td>
+    00:00:37,828 -- 00:00:38,808
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114008_665.wav"></audio> </td>
+<td>
+    Chomp chomp.</td>
+</tr>
+
+<tr><td>
+    00:00:39,568 -- 00:00:41,909
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114010_356.wav"></audio> </td>
+<td>
+    You've got some sharp teeth on that one.</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:00:43,529 -- 00:00:44,450
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it have scales?</b>
+</td></tr>
+<tr><td>
+    00:00:46,250 -- 00:00:47,331
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/just+a+second_matcha.wav"></audio> </td>
+<td>
+    Just a second.
+</td>
+</tr>
+
+<tr><td>
+    00:00:51,872 -- 00:00:53,573
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114022_595.wav"></audio> </td>
+<td>
+    No, it does not have scales.
+</td>
+</tr>
+
+<tr><td>
+    00:00:54,453 -- 00:00:57,974
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114025_134.wav"></audio> </td>
+<td>
+    Looks like you're fishing for clues in the wrong pond.
+</td>
+</tr>
+
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:00,330 -- 00:01:01,191
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a K9?</b>
+</td></tr>
+
+<tr><td>
+    00:01:03,072 -- 00:01:03,712
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/in+a+jiffy_matcha.wav"></audio> </td>
+<td>
+    In a jiffy
+</td>
+</tr>
+<tr><td>
+    00:01:05,374 -- 00:01:07,055
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114036_95.wav"></audio> </td>
+<td>
+    No, it is not a canine.
+</td>
+</tr>
+<tr><td>
+    00:01:07,875 -- 00:01:10,277
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114038_607.wav"></audio> </td>
+<td>
+    Maybe try howling up a different tree.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:11,658 -- 00:01:16,321
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it part of the cat family?</b>
+</td></tr>
+
+<tr><td>
+    00:01:18,658 -- 00:01:20,321
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/lets+see_matcha.wav"></audio> </td>
+<td>
+    Let's see..
+</td>
+</tr>
+
+<tr><td>
+    00:01:22,506 -- 00:01:24,887
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114053_142.wav"></audio> </td>
+<td>
+    Yes, it is part of the cat family.
+</td>
+</tr>
+
+<tr><td>
+    00:01:25,708 -- 00:01:28,350
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114056_418.wav"></audio> </td>
+<td>
+    purr fect you're clawing your way to the top.
+</td>
+</tr>
+
+</tr>
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:01:31,195 -- 00:01:33,196
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it known to reside in a jungle?</b>
+</td></tr>
+
+<tr><td>
+    00:01:35,116 -- 00:01:36,377
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="hard/reflecting+on+that_matcha.wav"></audio> </td>
+<td>
+    Reflecting on that.
+</td>
+</tr>
+
+<tr><td>
+    00:01:38,677 -- 00:01:41,938
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114109_355.wav"></audio> </td>
+<td>
+    No, it's not typically associated with the jungle.
+</td>
+</tr>
+
+<tr><td>
+    00:01:54,282 -- 00:01:58,944
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114124_916.wav"></audio> </td>
+<td>
+    Looks like you're not quite the king of this particular guessing jungle yet.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:02:00,151 -- 00:02:01,331
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it live in the savannah?</b>
+</td></tr>
+
+<tr><td>
+    00:02:03,052 -- 00:02:05,312
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="hard/excuse+me+i+need+to+think+a+bit_matcha.wav"></audio> </td>
+<td>
+    Excuse me, I need to think a bit.
+</td>
+</tr>
+
+<tr><td>
+    00:02:09,053 -- 00:02:11,353
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114139_810.wav"></audio> </td>
+<td>
+    Yes, it does reside in the savannah.
+</td>
+</tr>
+
+<tr><td>
+    00:02:12,073 -- 00:02:13,053
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114142_830.wav"></audio> </td>
+<td>
+    Hot, hot, hot.
+</td>
+</tr>
+
+<tr><td>
+    00:02:13,853 -- 00:02:16,774
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114144_605.wav"></audio> </td>
+<td>
+    Your instincts are on a safari to success.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:02:18,414 -- 00:02:19,414
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Does it have a mane?</b>
+</td></tr>
+<tr><td>
+    00:02:21,115 -- 00:02:21,715
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/lets+see_matcha.wav"></audio> </td>
+<td>
+    Let's see.
+</td>
+</tr>
+
+<tr><td>
+    00:02:24,975 -- 00:02:26,496
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114155_722.wav"></audio> </td>
+<td>
+    Yes, it does have a mane.
+</td>
+</tr>
+
+<tr><td>
+    00:02:27,276 -- 00:02:28,176
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114158_16.wav"></audio> </td>
+<td>
+    Looking sharp.
+</td>
+</tr>
+
+<tr><td>
+    00:02:29,013 -- 00:02:31,616
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114159_823.wav"></audio> </td>
+<td>
+    You're nearly the king of this guessing game.
+</td>
+</tr>
+
+<tr><td>
+    00:02:37,942 -- 00:02:40,725
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114208_726.wav"></audio> </td>
+<td>
+    You have asked 10 questions and have to guess.
+</td>
+</tr>
+
+<tr><td colspan="4"><hr></td></tr>
+<tr><td>
+    00:02:42,166 -- 00:02:42,847
+</td><td>
+<b>USER: </b>
+</td><td></td><td>
+<b>Is it a lion?</b>
+</td></tr>
+
+<tr><td>
+    00:02:45,149 -- 00:02:47,792
+</td><td>
+TTS-Matcha: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="5DWZS_matcha_3/20240307_114215_890.wav"></audio> </td>
+<td>
+    Yes, it is a lion, You guessed correctly.
+</td>
+</tr>
+
+
+</tbody>
+</table> 
+<hr>
+
+<b>Finally, since we have the log file from the dialogue system, we have access to the interaction manager's <br>
+    prosody control parameters that were not used by the TTS systems without prosody to control. <br>
+    Below we take a dialogue with the vanilla Tacotron 2 voice and add a column of what it would <br>
+    have sounded like if the dialogue would have been with Tacotron 2 equipped with prosody control. 
+
+</b>
+<hr>
+
+<H2>Vanilla Tacotron 2 and Tacotron 2 with prosody control, User guessing</H2>
+
+<table> <tbody>
+<tr>
+<td style="width:150px"><h3>Time (start-end)</h3></td>
+<td style="width:100px"><h3>Speaker</h3></td>
+<td style="width:100px"><h3>Original (T2)</h3></td>
+<td style="width:100px"><h3>Alternative (prosody)</h3></td>
+<td style="width:450px"><h3>Text</h3></td>
+</tr>
+<tr>
+<td>
+    00:00:07,470 -- 00:00:09,031
+</td>
+<td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_152933_603.wav"></audio> </td>
+    <td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_152933_603.wav"></audio> </td>
+<td>
+    I am thinking about an animal.
+</td>
+</tr>
+
+<tr>
+    <td>
+        00:00:15,316 -- 00:00:17,678
+    </td>
+    <td>
+    SYSTEM: 
+    </td>
+    <td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3/20240306_152941_486.wav""></audio> </td>
+        <td style="height:30px;background:#FFEA84"><audio controls  style="width: 100px;">
+            <source src="RXSCT_tacotron_3_alt/20240306_152941_486.wav""></audio> </td>
+    <td>
+        Please start asking me questions.
+    </td>
+    </tr>
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:00:18,899 -- 00:00:20,980
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Does the animal live in water?</b>
+</td></tr>
+<tr><td>
+    00:00:25,243 -- 00:00:27,385
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_152951_215.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_152951_215.wav"></audio> </td>
+<td>
+    No, it does not reside in water.
+</td>
+</tr>
+<tr><td>
+    00:00:28,388 -- 00:00:31,369
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_152954_391.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_152954_391.wav"></audio> </td>
+<td>
+    Hope you're not fishing for clues in the wrong pond.
+</td>
+</tr>
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:00:32,569 -- 00:00:34,350
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Does your animal fly?</b>
+</td></tr>
+<tr><td>
+    00:00:36,050 -- 00:00:37,210
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/swiftly+checking_tacotron.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="easy/swiftly+checking_tacotron_slow_low.wav"></audio> </td>
+<td>
+    Swiftly checking.
+</td>
+</tr>
+
+<tr><td>
+    00:00:38,911 -- 00:00:40,351
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153005_95.wav"></audio> </td>
+    <td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153005_95.wav"></audio> </td>
+<td>
+    No, it does not fly.
+</td>
+</tr>
+
+<tr><td>
+    00:00:41,692 -- 00:00:45,073
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153007_492.wav"></audio> </td>
+    <td style="height:30px;background:#FB9774"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153007_492.wav"></audio> </td>
+<td>
+    Seems like your guesses are having a bit of turbulence.
+</td>
+</tr>
+
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:04,378 -- 00:01:07,259
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Does your animal usually reside in Europe?</b>
+</td></tr>
+<tr><td>
+    00:00:51,194 -- 00:00:53,255
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="hard/excuse+me+i+need+to+think+a+bit_tacotron.wav"></audio> </td>
+    <td style="height:30px;background:#FB9774""><audio controls  style="width: 100px;">
+        <source src="hard/excuse+me+i+need+to+think+a+bit_tacotron_slow_low.wav"></audio> </td>
+<td>
+    Excuse me, I need to think a bit.
+</td>
+</tr>
+
+<tr><td>
+    00:00:53,975 -- 00:00:55,676
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153020_218.wav"></audio> </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153020_218.wav"></audio> </td>
+<td>
+    Yes, it can reside in Europe.
+</td>
+</tr>
+
+<tr><td>
+    00:00:56,436 -- 00:00:56,796
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153022_680.wav"></audio> </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153022_680.wav"></audio> </td>
+<td>
+    Eureka.
+</td>
+</tr>
+
+<tr><td>
+    00:00:57,802 -- 00:00:59,943
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153023_882.wav"></audio> </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153023_882.wav"></audio> </td>
+<td>
+    somewhat closer to the truth you are.
+</td>
+</tr>
+
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:02,245 -- 00:01:05,146
+</td><td>
+<b>USER: </b>
+</td><td></td><td><td>
+<b>Is your animal usually kept as a pet?</b>
+</td></tr>
+
+<tr><td>
+    00:01:07,148 -- 00:01:07,908
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/let+me+see_tacotron.wav"></audio> </td>
+    <td style="height:30px;background:#D6DF81"><audio controls  style="width: 100px;">
+        <source src="easy/let+me+see_tacotron_slow_high.wav"></audio> </td>
+<td>
+    Let me see.
+</td>
+</tr>
+<tr><td>
+    00:01:11,530 -- 00:01:13,732
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153037_684.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153037_684.wav"></audio> </td>
+<td>
+    Yes, it is usually kept as a pet.
+</td>
+</tr>
+<tr><td>
+    00:01:14,932 -- 00:01:16,593
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153040_780.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153040_780.wav"></audio> </td>
+<td>
+    you're barking up the right wait i'm not supposed to say that.
+</td>
+</tr>
+
+<tr><td>
+    00:01:19,115 -- 00:01:20,896
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153045_421.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153045_421.wav"></audio> </td>
+<td>
+    Keep fetching those questions.
+</td>
+</tr>
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:20,896 -- 00:01:32,557
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>/SILENCE/</b>
+</td></tr>
+
+<tr><td>
+    00:01:32,557 -- 00:01:33,818
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153058_797.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153058_797.wav"></audio> </td>
+<td>
+    You have to say something.
+</td>
+</tr>
+
+</tr>
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:34,499 -- 00:01:35,940
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Is your animal carnivorous?</b>
+</td></tr>
+
+<tr><td>
+    00:01:39,884 -- 00:01:41,345
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153106_107.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153106_107.wav"></audio> </td>
+<td>
+    Yes, it is carnivorous.
+</td>
+</tr>
+
+<tr><td>
+    00:01:42,386 -- 00:01:45,069
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153108_445.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153108_445.wav"></audio> </td>
+<td>
+    salivating at the right scent i see.
+</td>
+</tr>
+
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:48,152 -- 00:01:50,536
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>uh does your animal</b>
+</td></tr>
+
+<tr><td>
+    00:01:50,936 -- 00:01:52,536
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/swiftly+checking_tacotron.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="easy/swiftly+checking_tacotron_slow_high.wav"></audio> </td>
+<td>
+    Swiftly checking.
+</td>
+</tr>
+
+<tr><td>
+    00:01:56,265 -- 00:01:59,286
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153121_79.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153121_79.wav"></audio> </td>
+<td>
+    uh I think you might have missed a part of your question there.
+</td>
+</tr>
+
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:01:59,666 -- 00:02:00,166
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Yes, I did.</b>
+</td></tr>
+<tr><td>
+    00:02:00,186 -- 00:02:02,687
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153126_273.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153126_273.wav"></audio> </td>
+<td>
+    That was certainly a mysterious attempt.
+</td>
+</tr>
+
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:02:06,147 -- 00:02:07,928
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Is your animal a type of cat?</b>
+</td></tr>
+
+<tr><td>
+    00:02:09,928 -- 00:02:10,128
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="easy/ah_tacotron.wav"></audio> </td>
+    <td style="height:30px;background:#63BE7B"><audio controls  style="width: 100px;">
+        <source src="easy/ah_tacotron_slow_high.wav"></audio> </td>
+<td>
+    uh..
+</td>
+</tr>
+
+<tr><td>
+    00:02:13,589 -- 00:02:15,609
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153139_656.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153139_656.wav"></audio> </td>
+<td>
+    No, it is not a type of cat.
+</td>
+</tr>
+
+<tr><td>
+    00:02:16,530 -- 00:02:19,070
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153142_609.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153142_609.wav"></audio> </td>
+<td>
+    You're barking up the wrong tree with that guess.
+</td>
+</tr>
+
+<tr><td>
+    00:02:19,990 -- 00:02:22,351
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153146_151.wav"></audio> </td>
+    <td style="height:30px;background:#FDC37D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153146_151.wav"></audio> </td>
+<td>
+    Try a different category, perhaps.
+</td>
+</tr>
+
+<tr><td colspan="5"><hr></td></tr>
+<tr><td>
+    00:02:23,751 -- 00:02:25,416
+</td><td>
+<b>USER: </b>
+</td><td></td><td></td><td>
+<b>Is your animal a type of dog?</b>
+</td></tr>
+
+<tr><td>
+    00:02:27,864 -- 00:02:30,050
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153153_964.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153153_964.wav"></audio> </td>
+<td>
+    Yes, it is a dog you guessed correctly.
+</td>
+</tr>
+
+<tr><td>
+    00:02:30,933 -- 00:02:33,200
+</td><td>
+SYSTEM: 
+</td>
+<td style="height:30px;background:#999999"><audio controls  style="width: 100px;">
+    <source src="RXSCT_tacotron_3/20240306_153157_45.wav"></audio> </td>
+    <td style="height:30px;background:#95CC7D"><audio controls  style="width: 100px;">
+        <source src="RXSCT_tacotron_3_alt/20240306_153157_45.wav"></audio> </td>
+<td>
+    This concludes this round of the game.
+</td>
+</tr>
+
+</tbody>
+</table> 
+<hr>
+
+
+
 </body>
 </html>

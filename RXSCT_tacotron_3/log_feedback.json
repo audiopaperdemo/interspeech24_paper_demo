@@ -1,0 +1,344 @@
+[
+    {
+        "timestamp": "20240306_152927_160",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152927_160.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=That+was+fun.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "That was fun."
+    },
+    {
+        "timestamp": "20240306_152928_683",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152928_683.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=Lets+play+another+game.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "Lets play another game."
+    },
+    {
+        "timestamp": "20240306_152931_73",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152931_73.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=This+time+you+are+guessing.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "This time you are guessing."
+    },
+    {
+        "timestamp": "20240306_152933_603",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152933_603.wav",
+        "certainty": 5,
+        "pitch": 0.9,
+        "speaking_rate": 0.8,
+        "say_string": "http://130.237.67.65:5133/speak/?text=+i+am+thinking+about+an+animal.&spk_vec=0.2,0.8&f0=0.9&sr=0.8",
+        "system": " i am thinking about an animal."
+    },
+    {
+        "log_type": "game_start",
+        "timestamp": "20240306_152935_996",
+        "user_id": "RXSCT",
+        "system_persona": "affective",
+        "animal": "dog"
+    },
+    {
+        "timestamp": "20240306_152941_486",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152941_486.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=please+start+asking+me+questions.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "please start asking me questions."
+    },
+    {
+        "type": "asr",
+        "user": "does the animal live in water",
+        "asr_processing_time": 4.635,
+        "start_time": "20240306_152944_722",
+        "end_time": "20240306_152949_357"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "",
+        "gpt_processing_time": 1.835
+    },
+    {
+        "timestamp": "20240306_152951_215",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152951_215.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+it+does+not+reside+in+water.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it does not reside in water."
+    },
+    {
+        "timestamp": "20240306_152954_391",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_152954_391.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=hope+you%27re+not+fishing+for+clues+in+the+wrong+pond.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "hope you're not fishing for clues in the wrong pond."
+    },
+    {
+        "type": "asr",
+        "user": "does your animal fly",
+        "asr_processing_time": 4.376,
+        "start_time": "20240306_152958_377",
+        "end_time": "20240306_153002_753"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/easy/swiftly+checking_tacotron.wav",
+        "gpt_processing_time": 2.999
+    },
+    {
+        "timestamp": "20240306_153005_95",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153005_95.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+it+does+not+fly.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "no it does not fly."
+    },
+    {
+        "timestamp": "20240306_153007_492",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153007_492.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=seems+like+your+guesses+are+having+a+bit+of+turbulence.&spk_vec=0.7,0.3&f0=-0.6&sr=-0.4",
+        "system": "seems like your guesses are having a bit of turbulence."
+    },
+    {
+        "type": "asr",
+        "user": "does your animal usually reside in Europe",
+        "asr_processing_time": 5.689,
+        "start_time": "20240306_153012_233",
+        "end_time": "20240306_153017_922"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/hard/excuse+me+i+need+to+think+a+bit_tacotron.wav",
+        "gpt_processing_time": 2.221
+    },
+    {
+        "timestamp": "20240306_153020_218",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153020_218.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+can+reside+in+europe.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "yes it can reside in europe."
+    },
+    {
+        "timestamp": "20240306_153022_680",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153022_680.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5133/speak/?text=eureka.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "eureka."
+    },
+    {
+        "timestamp": "20240306_153023_882",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153023_882.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5133/speak/?text=somewhat+closer+to+the+truth+you+are.&spk_vec=0.7,0.3&f0=0.6&sr=0.0",
+        "system": "somewhat closer to the truth you are."
+    },
+    {
+        "type": "asr",
+        "user": "is your animal usually kept as a pet",
+        "asr_processing_time": 6.875,
+        "start_time": "20240306_153026_971",
+        "end_time": "20240306_153033_846"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/easy/let+me+see_tacotron.wav",
+        "gpt_processing_time": 3.767
+    },
+    {
+        "timestamp": "20240306_153037_684",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153037_684.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+is+usually+kept+as+a+pet.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "yes it is usually kept as a pet."
+    },
+    {
+        "timestamp": "20240306_153040_780",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153040_780.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you%27re+barking+up+the+right+wait+i%27m+not+supposed+to+say+that.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "you're barking up the right wait i'm not supposed to say that."
+    },
+    {
+        "timestamp": "20240306_153045_421",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153045_421.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=keep+fetching+those+questions.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "keep fetching those questions."
+    },
+    {
+        "type": "asr",
+        "user": "is your animal",
+        "asr_processing_time": 4.505,
+        "start_time": "20240306_153047_960",
+        "end_time": "20240306_153052_465"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/easy/uhm_tacotron.wav",
+        "gpt_processing_time": 1.123
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.124,
+        "start_time": "20240306_153053_661",
+        "end_time": "20240306_153058_785"
+    },
+    {
+        "timestamp": "20240306_153058_797",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153058_797.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=you+have+to+say+something.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "thing is your animal carnivores",
+        "asr_processing_time": 3.559,
+        "start_time": "20240306_153100_780",
+        "end_time": "20240306_153104_339"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "",
+        "gpt_processing_time": 2.442
+    },
+    {
+        "timestamp": "20240306_153106_107",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153106_107.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=yes+it+is+carnivorous.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "yes it is carnivorous."
+    },
+    {
+        "timestamp": "20240306_153108_445",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153108_445.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=+salivating+at+the+right+scent+i+see.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": " salivating at the right scent i see."
+    },
+    {
+        "type": "asr",
+        "user": "uh does your animal",
+        "asr_processing_time": 5.651,
+        "start_time": "20240306_153112_45",
+        "end_time": "20240306_153118_101"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/easy/swiftly+checking_tacotron.wav",
+        "gpt_processing_time": 3.518
+    },
+    {
+        "timestamp": "20240306_153121_79",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153121_79.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=uh+i+think+you+might+have+missed+a+part+of+your+question+there.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "uh i think you might have missed a part of your question there."
+    },
+    {
+        "timestamp": "20240306_153126_273",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153126_273.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5133/speak/?text=that+was+certainly+a+mysterious+attempt.&spk_vec=0.7,0.3&f0=1.1&sr=0.4",
+        "system": "that was certainly a mysterious attempt."
+    },
+    {
+        "type": "asr",
+        "user": "uh is your animal a type of cat",
+        "asr_processing_time": 6.688,
+        "start_time": "20240306_153129_715",
+        "end_time": "20240306_153136_403"
+    },
+    {
+        "timestamp": "20240306_152935_996",
+        "filler": "cashed_files/easy/ah_tacotron.wav",
+        "gpt_processing_time": 3.163
+    },
+    {
+        "timestamp": "20240306_153139_656",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153139_656.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=no+it+is+not+a+type+of+cat.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "no it is not a type of cat."
+    },
+    {
+        "timestamp": "20240306_153142_609",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153142_609.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=+you%27re+barking+up+the+wrong+tree+with+that+guess.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": " you're barking up the wrong tree with that guess."
+    },
+    {
+        "timestamp": "20240306_153146_151",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153146_151.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=try+a+different+category+perhaps.&spk_vec=0.7,0.3&f0=-0.3&sr=-0.2",
+        "system": "try a different category perhaps."
+    },
+    {
+        "type": "asr",
+        "user": "is your animal a type of dog",
+        "asr_processing_time": 4.433,
+        "start_time": "20240306_153149_519",
+        "end_time": "20240306_153153_952"
+    },
+    {
+        "timestamp": "20240306_153153_964",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153153_964.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=Yes+it+is+a+dog+you+guessed+correctly.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "Yes it is a dog you guessed correctly."
+    },
+    {
+        "timestamp": "20240306_153157_45",
+        "filename": "par_RXSCT/RXSCT_tacotron_3/20240306_153157_45.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5133/speak/?text=This+concludes+this+round+of+the+game.&spk_vec=0.7,0.3&f0=0.9&sr=0.2",
+        "system": "This concludes this round of the game."
+    }
+]

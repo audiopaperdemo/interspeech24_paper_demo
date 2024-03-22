@@ -1,0 +1,188 @@
+1
+00:00:00,871 --> 00:00:01,692
+[SPEAKER_01]: That was fun.
+
+2
+00:00:02,432 --> 00:00:03,833
+[SPEAKER_01]: Let's play another game.
+
+3
+00:00:04,553 --> 00:00:06,134
+[SPEAKER_01]: This time you are guessing.
+
+4
+00:00:06,915 --> 00:00:08,436
+[SPEAKER_01]: I am thinking about an animal.
+
+5
+00:00:11,218 --> 00:00:13,459
+[SPEAKER_01]: Please start asking me questions.
+
+6
+00:00:14,240 --> 00:00:15,320
+[SPEAKER_00]: Is it able to swim?
+
+7
+00:00:21,024 --> 00:00:23,005
+[SPEAKER_01]: No, it's not known for swimming.
+
+8
+00:00:23,926 --> 00:00:27,928
+[SPEAKER_01]: I'd throw you a life jacket, but we're on dry land with this one.
+
+9
+00:00:29,645 --> 00:00:30,525
+[SPEAKER_00]: Is it a carnivore?
+
+10
+00:00:32,266 --> 00:00:32,926
+[SPEAKER_01]: Hold on.
+
+11
+00:00:35,647 --> 00:00:37,147
+[SPEAKER_01]: Yes, it is a carnivore.
+
+12
+00:00:37,828 --> 00:00:38,808
+[SPEAKER_01]: Chomp chomp.
+
+13
+00:00:39,568 --> 00:00:41,909
+[SPEAKER_01]: You've got some sharp teeth on that one.
+
+14
+00:00:43,529 --> 00:00:44,450
+[SPEAKER_00]: Does it have scales?
+
+15
+00:00:46,250 --> 00:00:47,331
+[SPEAKER_01]: Just a second.
+
+16
+00:00:51,872 --> 00:00:53,573
+[SPEAKER_01]: No, it does not have scales.
+
+17
+00:00:54,453 --> 00:00:57,974
+[SPEAKER_01]: Looks like you're fishing for clues in the wrong pond.
+
+18
+00:01:00,330 --> 00:01:01,191
+[SPEAKER_00]: Is it a canine?
+
+19
+00:01:03,072 --> 00:01:03,712
+[SPEAKER_01]: In a jiffy?
+
+20
+00:01:05,374 --> 00:01:07,055
+[SPEAKER_01]: No, it is not a canine.
+
+21
+00:01:07,875 --> 00:01:10,277
+[SPEAKER_01]: Maybe try howling up a different tree.
+
+22
+00:01:11,658 --> 00:01:12,859
+[SPEAKER_00]: Is it part of the... Let's see.
+
+23
+00:01:14,060 --> 00:01:15,321
+[SPEAKER_00]: Is it part of the cat family?
+
+24
+00:01:22,506 --> 00:01:24,887
+[SPEAKER_01]: Yes, it is part of the cat family.
+
+25
+00:01:25,708 --> 00:01:28,350
+[SPEAKER_01]: Perfect, you're clawing your way to the top.
+
+26
+00:01:31,195 --> 00:01:33,196
+[SPEAKER_00]: Is it known to reside in a jungle?
+
+27
+00:01:35,116 --> 00:01:36,377
+[SPEAKER_01]: Reflecting on that.
+
+28
+00:01:38,677 --> 00:01:41,938
+[SPEAKER_01]: No, it's not typically associated with the jungle.
+
+29
+00:01:42,759 --> 00:01:46,620
+[SPEAKER_01]: Looks like the king of the jungle moniker doesn't apply here.
+
+30
+00:01:48,501 --> 00:01:49,161
+[SPEAKER_01]: In a jiffy.
+
+31
+00:01:51,121 --> 00:01:53,402
+[SPEAKER_01]: No, it doesn't reside in the jungle.
+
+32
+00:01:54,282 --> 00:01:58,944
+[SPEAKER_01]: Looks like you're not quite the king of this particular guessing jungle yet.
+
+33
+00:02:00,151 --> 00:02:01,331
+[SPEAKER_00]: Does it live in the savannah?
+
+34
+00:02:03,052 --> 00:02:05,312
+[SPEAKER_01]: Excuse me, I need to think a bit.
+
+35
+00:02:09,053 --> 00:02:11,353
+[SPEAKER_01]: Yes, it does reside in the savannah.
+
+36
+00:02:12,073 --> 00:02:13,053
+[SPEAKER_01]: Hot, hot, hot.
+
+37
+00:02:13,853 --> 00:02:16,774
+[SPEAKER_01]: Your instincts are on a safari to success.
+
+38
+00:02:18,414 --> 00:02:19,414
+[SPEAKER_00]: Does it have a mane?
+
+39
+00:02:21,115 --> 00:02:21,715
+[SPEAKER_01]: Let's see.
+
+40
+00:02:24,975 --> 00:02:26,496
+[SPEAKER_01]: Yes, it does have a mane.
+
+41
+00:02:27,276 --> 00:02:28,176
+[SPEAKER_01]: Looking sharp.
+
+42
+00:02:29,013 --> 00:02:31,616
+[SPEAKER_01]: You're nearly the king of this guessing game.
+
+43
+00:02:33,037 --> 00:02:34,899
+[SPEAKER_00]: Is it a lion?
+
+44
+00:02:37,942 --> 00:02:40,725
+[SPEAKER_01]: You have asked 10 questions and have to guess.
+
+45
+00:02:42,166 --> 00:02:42,847
+[SPEAKER_00]: Is it a lion?
+
+46
+00:02:45,149 --> 00:02:46,431
+[SPEAKER_01]: Yes, it is a lion.
+
+47
+00:02:46,471 --> 00:02:47,792
+[SPEAKER_01]: You guessed correctly.
+

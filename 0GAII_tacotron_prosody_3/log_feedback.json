@@ -1,0 +1,432 @@
+[
+    {
+        "timestamp": "20240308_093945_214",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_093945_214.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=That+was+fun.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "That was fun."
+    },
+    {
+        "timestamp": "20240308_093946_488",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_093946_488.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Lets+play+another+game.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "Lets play another game."
+    },
+    {
+        "timestamp": "20240308_093948_104",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_093948_104.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=This+time+you+are+guessing.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "This time you are guessing."
+    },
+    {
+        "timestamp": "20240308_093950_22",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_093950_22.wav",
+        "certainty": 5,
+        "pitch": 0.9,
+        "speaking_rate": 0.8,
+        "say_string": "http://130.237.67.65:5134/speak/?text=+i+am+thinking+about+an+animal.&spk_vec=0.25,0.9&f0=0.9&sr=0.8",
+        "system": " i am thinking about an animal."
+    },
+    {
+        "log_type": "game_start",
+        "timestamp": "20240308_093952_308",
+        "user_id": "0GAII",
+        "system_persona": "affective",
+        "animal": "shark"
+    },
+    {
+        "timestamp": "20240308_093955_902",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_093955_902.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=please+start+asking+me+questions.&spk_vec=0.15,1.1&f0=0.9&sr=0.2",
+        "system": "please start asking me questions."
+    },
+    {
+        "type": "asr",
+        "user": "does it have 4 legs",
+        "asr_processing_time": 5.523,
+        "start_time": "20240308_093958_265",
+        "end_time": "20240308_094003_788"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "",
+        "gpt_processing_time": 2.31
+    },
+    {
+        "timestamp": "20240308_094006_126",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094006_126.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=no+it+does+not+have+four+legs.&spk_vec=0.25,0.9&f0=-0.3&sr=-0.2",
+        "system": "no it does not have four legs."
+    },
+    {
+        "timestamp": "20240308_094008_208",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094008_208.wav",
+        "certainty": -1,
+        "pitch": -0.3,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=keep+on+your+toes+you+might+just+stumble+on+the+answer.&spk_vec=0.25,0.9&f0=-0.3&sr=-0.2",
+        "system": "keep on your toes you might just stumble on the answer."
+    },
+    {
+        "type": "asr",
+        "user": "sir",
+        "asr_processing_time": 1.498,
+        "start_time": "20240308_094011_886",
+        "end_time": "20240308_094013_384"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/uhm_tacotron_slow_low.wav",
+        "gpt_processing_time": 4.081
+    },
+    {
+        "timestamp": "20240308_094017_545",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094017_545.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=no+it+does+not+have+four+legs.&spk_vec=0.2,1&f0=-0.6&sr=-0.4",
+        "system": "no it does not have four legs."
+    },
+    {
+        "timestamp": "20240308_094019_558",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094019_558.wav",
+        "certainty": -2,
+        "pitch": -0.6,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=looks+like+you+took+a+tiny+misstep+there+don%27t+trip+over+your+own+questions.&spk_vec=0.2,1&f0=-0.6&sr=-0.4",
+        "system": "looks like you took a tiny misstep there don't trip over your own questions."
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.053,
+        "start_time": "20240308_094024_451",
+        "end_time": "20240308_094029_504"
+    },
+    {
+        "timestamp": "20240308_094029_514",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094029_514.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you+have+to+say+something.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "does it have more than 4 legs",
+        "asr_processing_time": 4.189,
+        "start_time": "20240308_094031_152",
+        "end_time": "20240308_094035_341"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/uhm_tacotron_slow_low.wav",
+        "gpt_processing_time": 1.849
+    },
+    {
+        "timestamp": "20240308_094037_284",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094037_284.wav",
+        "certainty": -3,
+        "pitch": -0.9,
+        "speaking_rate": -0.8,
+        "say_string": "http://130.237.67.65:5134/speak/?text=no+it+does+not+have+more+than+4+legs.&spk_vec=0.25,1.1&f0=-0.9&sr=-0.8",
+        "system": "no it does not have more than 4 legs."
+    },
+    {
+        "timestamp": "20240308_094040_199",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094040_199.wav",
+        "certainty": -3,
+        "pitch": -0.9,
+        "speaking_rate": -0.8,
+        "say_string": "http://130.237.67.65:5134/speak/?text=definitely+not+crawling+with+possibilities+are+we.&spk_vec=0.25,1.1&f0=-0.9&sr=-0.8",
+        "system": "definitely not crawling with possibilities are we."
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.135,
+        "start_time": "20240308_094044_318",
+        "end_time": "20240308_094049_453"
+    },
+    {
+        "timestamp": "20240308_094049_467",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094049_467.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you+have+to+say+something.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "is it a reptile",
+        "asr_processing_time": 7.705,
+        "start_time": "20240308_094051_135",
+        "end_time": "20240308_094058_84"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/just+a+second_tacotron_slow_low.wav",
+        "gpt_processing_time": 2.598
+    },
+    {
+        "timestamp": "20240308_094100_751",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094100_751.wav",
+        "certainty": -4,
+        "pitch": -1.1,
+        "speaking_rate": -1.0,
+        "say_string": "http://130.237.67.65:5134/speak/?text=no+it+is+not+a+reptile.&spk_vec=0.1,1.2&f0=-1.1&sr=-1.0",
+        "system": "no it is not a reptile."
+    },
+    {
+        "timestamp": "20240308_094103_112",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094103_112.wav",
+        "certainty": -4,
+        "pitch": -1.1,
+        "speaking_rate": -1.0,
+        "say_string": "http://130.237.67.65:5134/speak/?text=guess+we%27re+not+slithering+towards+the+answer+this+time.&spk_vec=0.1,1.2&f0=-1.1&sr=-1.0",
+        "system": "guess we're not slithering towards the answer this time."
+    },
+    {
+        "type": "asr",
+        "user": "",
+        "asr_processing_time": 5.079,
+        "start_time": "20240308_094112_316",
+        "end_time": "20240308_094117_395"
+    },
+    {
+        "timestamp": "20240308_094117_407",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094117_407.wav",
+        "certainty": 8,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you+have+to+say+something.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "you have to say something."
+    },
+    {
+        "type": "asr",
+        "user": "does it live in the water",
+        "asr_processing_time": 2.403,
+        "start_time": "20240308_094119_73",
+        "end_time": "20240308_094122_133"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/hard/engaging+deeper+thought_tacotron_slow_low.wav",
+        "gpt_processing_time": 2.191
+    },
+    {
+        "timestamp": "20240308_094124_395",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094124_395.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5134/speak/?text=yes+it+resides+in+the+water.&spk_vec=0.2,1.0&f0=0.6&sr=0.0",
+        "system": "yes it resides in the water."
+    },
+    {
+        "timestamp": "20240308_094126_690",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094126_690.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you%27re+not+floundering+anymore.&spk_vec=0.2,1.0&f0=0.6&sr=0.0",
+        "system": "you're not floundering anymore."
+    },
+    {
+        "timestamp": "20240308_094129_11",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094129_11.wav",
+        "certainty": 1,
+        "pitch": 0.6,
+        "speaking_rate": 0.0,
+        "say_string": "http://130.237.67.65:5134/speak/?text=keep+swimming+for+the+answer.&spk_vec=0.2,1.0&f0=0.6&sr=0.0",
+        "system": "keep swimming for the answer."
+    },
+    {
+        "type": "asr",
+        "user": "sir",
+        "asr_processing_time": 1.501,
+        "start_time": "20240308_094130_913",
+        "end_time": "20240308_094132_414"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/lets+see_tacotron_slow_high.wav",
+        "gpt_processing_time": 0.902
+    },
+    {
+        "type": "asr",
+        "user": "fish",
+        "asr_processing_time": 2.335,
+        "start_time": "20240308_094133_385",
+        "end_time": "20240308_094135_72"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "",
+        "gpt_processing_time": 1.089
+    },
+    {
+        "timestamp": "20240308_094136_923",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094136_923.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=yes+you%27re+asking+if+it%27s+a+fish.&spk_vec=0.15,1.1&f0=0.9&sr=0.2",
+        "system": "yes you're asking if it's a fish."
+    },
+    {
+        "timestamp": "20240308_094139_382",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094139_382.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=cast+a+wider+net+but+you%27re+swimming+in+the+right+school+now.&spk_vec=0.15,1.1&f0=0.9&sr=0.2",
+        "system": "cast a wider net but you're swimming in the right school now."
+    },
+    {
+        "type": "asr",
+        "user": "is it larger than a cat",
+        "asr_processing_time": 14.066,
+        "start_time": "20240308_094143_337",
+        "end_time": "20240308_094157_403"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/hold+on_tacotron_slow_high.wav",
+        "gpt_processing_time": 2.379
+    },
+    {
+        "timestamp": "20240308_094159_854",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094159_854.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=yes+it+is+larger+than+a+cat.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "yes it is larger than a cat."
+    },
+    {
+        "timestamp": "20240308_094202_302",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094202_302.wav",
+        "certainty": 3,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=seems+like+you%27re+not+fishing+for+compliments+just+bigger+fish.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "seems like you're not fishing for compliments just bigger fish."
+    },
+    {
+        "type": "asr",
+        "user": "would you consider this animal dangerous",
+        "asr_processing_time": 8.801,
+        "start_time": "20240308_094206_78",
+        "end_time": "20240308_094215_581"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/in+a+jiffy_tacotron_slow_high.wav",
+        "gpt_processing_time": 1.995
+    },
+    {
+        "timestamp": "20240308_094217_650",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094217_650.wav",
+        "certainty": 4,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=yes+it+is+considered+dangerous.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "yes it is considered dangerous."
+    },
+    {
+        "timestamp": "20240308_094219_945",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094219_945.wav",
+        "certainty": 4,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=careful+now+don%27t+bite+off+more+than+you+can+chew+with+your+guesses.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "careful now don't bite off more than you can chew with your guesses."
+    },
+    {
+        "type": "asr",
+        "user": "is it extra dangerous for Surfers",
+        "asr_processing_time": 6.866,
+        "start_time": "20240308_094224_315",
+        "end_time": "20240308_094231_181"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/hard/uh+let+me+see_tacotron_slow_high.wav",
+        "gpt_processing_time": 4.473
+    },
+    {
+        "timestamp": "20240308_094235_744",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094235_744.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=yes+it+is+particularly+risky+for+those+who+surf.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "yes it is particularly risky for those who surf."
+    },
+    {
+        "timestamp": "20240308_094238_867",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094238_867.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you%27re+definitely+riding+the+wave+to+success+now.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "you're definitely riding the wave to success now."
+    },
+    {
+        "type": "asr",
+        "user": "does it have very many teeth",
+        "asr_processing_time": 9.013,
+        "start_time": "20240308_094241_457",
+        "end_time": "20240308_094250_470"
+    },
+    {
+        "timestamp": "20240308_093952_308",
+        "filler": "cashed_files/easy/in+a+jiffy_tacotron_slow_high.wav",
+        "gpt_processing_time": 1.665
+    },
+    {
+        "timestamp": "20240308_094252_208",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094252_208.wav",
+        "certainty": 5,
+        "pitch": 1.1,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=you+have+asked+10+questions+and+have+to+guess.&spk_vec=0.1,1.2&f0=1.1&sr=0.4",
+        "system": "you have asked 10 questions and have to guess."
+    },
+    {
+        "timestamp": "20240308_094258_178",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094258_178.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Yes+it+is+a+shark+you+guessed+correctly.&spk_vec=0.15,1.1&f0=0.9&sr=0.2",
+        "system": "Yes it is a shark you guessed correctly."
+    },
+    {
+        "timestamp": "20240308_094300_904",
+        "filename": "par_0GAII/0GAII_tacotron_prosody_3/20240308_094300_904.wav",
+        "certainty": 2,
+        "pitch": 0.9,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=This+concludes+this+round+of+the+game.&spk_vec=0.15,1.1&f0=0.9&sr=0.2",
+        "system": "This concludes this round of the game."
+    }
+]

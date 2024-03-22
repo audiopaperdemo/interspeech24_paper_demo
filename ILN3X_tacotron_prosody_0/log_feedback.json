@@ -1,0 +1,367 @@
+[
+    {
+        "timestamp": "20240304_142449_808",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142449_808.wav",
+        "certainty": 5,
+        "pitch": 0.8,
+        "speaking_rate": 0.6,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Hi+there+Lets+play+10+questions.&spk_vec=0.3,0.7&f0=0.8&sr=0.6",
+        "system": "Hi there Lets play 10 questions."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "user_id": "ILN3X",
+        "system_persona": "affective"
+    },
+    {
+        "timestamp": "20240304_142454_960",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142454_960.wav",
+        "certainty": 1,
+        "pitch": 0.4,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+the+animal+you%27re+thinking+of+typically+kept+as+a+pet.&spk_vec=0.3,0.7&f0=0.4&sr=0.2",
+        "system": "Is the animal you're thinking of typically kept as a pet."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142458_518",
+        "end_time": "20240304_142501_17",
+        "asr_processing_time": 2.652,
+        "user": "yes"
+    },
+    {
+        "timestamp": "20240304_142501_29",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142501_29.wav",
+        "certainty": 2,
+        "pitch": 0.7,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=uh+fantastic.&spk_vec=0.1,1.2&f0=0.7&sr=0.4",
+        "system": "uh fantastic."
+    },
+    {
+        "timestamp": "20240304_142502_730",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142502_730.wav",
+        "certainty": 2,
+        "pitch": 0.7,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=That+certainly+narrows+it+down.&spk_vec=0.1,1.2&f0=0.7&sr=0.4",
+        "system": "That certainly narrows it down."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 2.652
+    },
+    {
+        "timestamp": "20240304_142511_359",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142511_359.wav",
+        "certainty": 2,
+        "pitch": 0.6,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+the+animal+you%27re+thinking+of+small+enough+to+be+held+in+your+arms.&spk_vec=0.3,0.7&f0=0.6&sr=0.4",
+        "system": "Is the animal you're thinking of small enough to be held in your arms."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142515_490",
+        "end_time": "20240304_142518_994",
+        "asr_processing_time": 3.504,
+        "user": "of course yes"
+    },
+    {
+        "timestamp": "20240304_142519_06",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142519_06.wav",
+        "certainty": 3,
+        "pitch": 0.9,
+        "speaking_rate": 0.6,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Oh+wonderful+that+narrows+it+down+quite+a+bit.&spk_vec=0.1,1.2&f0=0.9&sr=0.6",
+        "system": "Oh wonderful that narrows it down quite a bit."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 3.504
+    },
+    {
+        "timestamp": "20240304_142525_570",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142525_570.wav",
+        "certainty": 3,
+        "pitch": 0.8,
+        "speaking_rate": 0.6,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+this+animal+a+type+of+rodent.&spk_vec=0.3,0.7&f0=0.8&sr=0.6",
+        "system": "Is this animal a type of rodent."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142527_959",
+        "end_time": "20240304_142532_895",
+        "asr_processing_time": 4.936,
+        "user": "I'm not quite sure"
+    },
+    {
+        "timestamp": "20240304_142532_908",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142532_908.wav",
+        "certainty": -1,
+        "pitch": -0.2,
+        "speaking_rate": -0.1,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Ok+so+then+back+to+the+drawing+board+it+seems.&spk_vec=0.1,1.2&f0=-0.2&sr=-0.1",
+        "system": "Ok so then back to the drawing board it seems."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 4.936
+    },
+    {
+        "timestamp": "20240304_142538_553",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142538_553.wav",
+        "certainty": -1,
+        "pitch": -0.0,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Does+this+animal+have+fur.&spk_vec=0.3,0.7&f0=-0.0&sr=-0.2",
+        "system": "Does this animal have fur."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142540_163",
+        "end_time": "20240304_142542_841",
+        "asr_processing_time": 2.678,
+        "user": "yes"
+    },
+    {
+        "timestamp": "20240304_142542_851",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142542_851.wav",
+        "certainty": 1,
+        "pitch": 0.5,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=uh+splendid.&spk_vec=0.1,1.2&f0=0.5&sr=0.2",
+        "system": "uh splendid."
+    },
+    {
+        "timestamp": "20240304_142545_875",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142545_875.wav",
+        "certainty": 1,
+        "pitch": 0.5,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=That+narrows+it+down.&spk_vec=0.1,1.2&f0=0.5&sr=0.2",
+        "system": "That narrows it down."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 2.678
+    },
+    {
+        "timestamp": "20240304_142550_502",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142550_502.wav",
+        "certainty": 1,
+        "pitch": 0.4,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Does+this+animal+have+fur.&spk_vec=0.3,0.7&f0=0.4&sr=0.2",
+        "system": "Does this animal have fur."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142552_72",
+        "end_time": "20240304_142555_60",
+        "asr_processing_time": 2.88,
+        "user": "yes"
+    },
+    {
+        "timestamp": "20240304_142555_71",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142555_71.wav",
+        "certainty": 2,
+        "pitch": 0.7,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=uh+that%27s+great.&spk_vec=0.1,1.2&f0=0.7&sr=0.4",
+        "system": "uh that's great."
+    },
+    {
+        "timestamp": "20240304_142556_566",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142556_566.wav",
+        "certainty": 2,
+        "pitch": 0.7,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Seems+like%2C+I%27m+getting+closer.&spk_vec=0.1,1.2&f0=0.7&sr=0.4",
+        "system": "Seems like, I'm getting closer."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 2.88
+    },
+    {
+        "timestamp": "20240304_142603_561",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142603_561.wav",
+        "certainty": 2,
+        "pitch": 0.6,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+it+known+for+its+ability+to+purr.&spk_vec=0.3,0.7&f0=0.6&sr=0.4",
+        "system": "Is it known for its ability to purr."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142606_344",
+        "end_time": "20240304_142612_485",
+        "asr_processing_time": 6.141,
+        "user": "can you repeat that again"
+    },
+    {
+        "timestamp": "20240304_142612_498",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142612_498.wav",
+        "certainty": 0,
+        "pitch": -0.5,
+        "speaking_rate": -0.5,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+it+known+for+its+ability+to+purr.&spk_vec=0.6,0.2&f0=-0.5&sr=-0.5",
+        "system": "Is it known for its ability to purr."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142615_487",
+        "end_time": "20240304_142617_112",
+        "asr_processing_time": 1.625,
+        "user": "her"
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 1.625
+    },
+    {
+        "timestamp": "20240304_142620_734",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142620_734.wav",
+        "certainty": 2,
+        "pitch": 0.6,
+        "speaking_rate": 0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+the+animal+primarily+a+carnivore+known+for+eating+meat.&spk_vec=0.3,0.7&f0=0.6&sr=0.4",
+        "system": "Is the animal primarily a carnivore known for eating meat."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142625_109",
+        "end_time": "20240304_142628_611",
+        "asr_processing_time": 3.502,
+        "user": "no I don't think so"
+    },
+    {
+        "timestamp": "20240304_142628_624",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142628_624.wav",
+        "certainty": -1,
+        "pitch": -0.2,
+        "speaking_rate": -0.1,
+        "say_string": "http://130.237.67.65:5134/speak/?text=uh+no.&spk_vec=0.1,1.2&f0=-0.2&sr=-0.1",
+        "system": "uh no."
+    },
+    {
+        "timestamp": "20240304_142629_813",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142629_813.wav",
+        "certainty": -1,
+        "pitch": -0.2,
+        "speaking_rate": -0.1,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Alright+I+need+to+consider+other+options.&spk_vec=0.1,1.2&f0=-0.2&sr=-0.1",
+        "system": "Alright I need to consider other options."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 3.502
+    },
+    {
+        "timestamp": "20240304_142637_292",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142637_292.wav",
+        "certainty": -1,
+        "pitch": -0.0,
+        "speaking_rate": -0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+it+a+type+of+bird.&spk_vec=0.3,0.7&f0=-0.0&sr=-0.2",
+        "system": "Is it a type of bird."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142639_04",
+        "end_time": "20240304_142642_375",
+        "asr_processing_time": 3.335,
+        "user": "no"
+    },
+    {
+        "timestamp": "20240304_142642_386",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142642_386.wav",
+        "certainty": -2,
+        "pitch": -0.4,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Oof+I+thought+I+was+onto+something+Interesting+let%27s+see+what+else+could+it+be.&spk_vec=0.1,1.2&f0=-0.4&sr=-0.4",
+        "system": "Oof I thought I was onto something Interesting let's see what else could it be."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 3.335
+    },
+    {
+        "timestamp": "20240304_142651_437",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142651_437.wav",
+        "certainty": -2,
+        "pitch": -0.1,
+        "speaking_rate": -0.4,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Does+this+animal+commonly+reside+indoors.&spk_vec=0.3,0.7&f0=-0.1&sr=-0.4",
+        "system": "Does this animal commonly reside indoors."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142654_572",
+        "end_time": "20240304_142700_17",
+        "asr_processing_time": 5.598,
+        "user": "yes yes uh both but more or less indoor yeah"
+    },
+    {
+        "timestamp": "20240304_142700_29",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142700_29.wav",
+        "certainty": 1,
+        "pitch": 0.5,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Phew+okay+I%27m+getting+warmer+with+this.&spk_vec=0.1,1.2&f0=0.5&sr=0.2",
+        "system": "Phew okay I'm getting warmer with this."
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 5.598
+    },
+    {
+        "timestamp": "20240304_142706_247",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142706_247.wav",
+        "certainty": 1,
+        "pitch": 0.4,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=Is+this+animal+prone+to+climbing+or+jumping+onto+elevated+surfaces+like+furniture.&spk_vec=0.3,0.7&f0=0.4&sr=0.2",
+        "system": "Is this animal prone to climbing or jumping onto elevated surfaces like furniture."
+    },
+    {
+        "type": "asr",
+        "start_time": "20240304_142711_749",
+        "end_time": "20240304_142719_175",
+        "asr_processing_time": 7.426,
+        "user": "it depends on what species species"
+    },
+    {
+        "timestamp": "20240304_142451_961",
+        "gpt_processing_time": 7.426
+    },
+    {
+        "timestamp": "20240304_142728_539",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142728_539.wav",
+        "certainty": 3,
+        "pitch": 0.8,
+        "speaking_rate": 0.6,
+        "say_string": "http://130.237.67.65:5134/speak/?text=I+have+asked+my+questions+and+have+failed+to+guess+correctly.&spk_vec=0.3,0.7&f0=0.8&sr=0.6",
+        "system": "I have asked my questions and have failed to guess correctly."
+    },
+    {
+        "timestamp": "20240304_142732_795",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142732_795.wav",
+        "certainty": 3,
+        "pitch": 0.8,
+        "speaking_rate": 0.6,
+        "say_string": "http://130.237.67.65:5134/speak/?text=This+concludes+this+round+of+the+game.&spk_vec=0.3,0.7&f0=0.8&sr=0.6",
+        "system": "This concludes this round of the game."
+    },
+    {
+        "timestamp": "20240304_142735_596",
+        "filename": "par_ILN3X/ILN3X_tacotron_prosody_0/20240304_142735_596.wav",
+        "certainty": 1,
+        "pitch": 0.4,
+        "speaking_rate": 0.2,
+        "say_string": "http://130.237.67.65:5134/speak/?text=I%27ll+try+again+next+time.&spk_vec=0.3,0.7&f0=0.4&sr=0.2",
+        "system": "I'll try again next time."
+    }
+]

@@ -1,0 +1,176 @@
+1
+00:00:00,785 --> 00:00:01,566
+[SPEAKER_01]: That was fun.
+
+2
+00:00:02,386 --> 00:00:04,007
+[SPEAKER_01]: Let's play another game.
+
+3
+00:00:04,808 --> 00:00:06,529
+[SPEAKER_01]: This time you are guessing.
+
+4
+00:00:07,469 --> 00:00:09,070
+[SPEAKER_01]: I am thinking about an animal.
+
+5
+00:00:11,752 --> 00:00:13,974
+[SPEAKER_00]: Is the animal larger than a human?
+
+6
+00:00:19,697 --> 00:00:21,859
+[SPEAKER_01]: Yes, it is larger than a human.
+
+7
+00:00:22,699 --> 00:00:25,201
+[SPEAKER_01]: You're not sizing me up to quickly, are you?
+
+8
+00:00:28,143 --> 00:00:29,524
+[SPEAKER_00]: Does the animal live on land?
+
+9
+00:00:31,167 --> 00:00:31,707
+[SPEAKER_00]: Let's see.
+
+10
+00:00:36,948 --> 00:00:39,069
+[SPEAKER_01]: Yes, it does reside on land.
+
+11
+00:00:40,269 --> 00:00:43,550
+[SPEAKER_01]: Absolutely towering over the competition with that guess.
+
+12
+00:00:48,531 --> 00:00:49,431
+[SPEAKER_01]: Just a second.
+
+13
+00:00:51,852 --> 00:00:54,672
+[SPEAKER_00]: Is it a domesticated animal?
+
+14
+00:00:56,072 --> 00:00:58,193
+[SPEAKER_01]: Yes, it does reside on land.
+
+15
+00:00:59,215 --> 00:01:01,476
+[SPEAKER_01]: You're not beating around the bush, are you?
+
+16
+00:01:02,097 --> 00:01:02,677
+[SPEAKER_01]: Good job.
+
+17
+00:01:04,378 --> 00:01:06,039
+[SPEAKER_00]: Is it domesticated?
+
+18
+00:01:06,299 --> 00:01:07,259
+[SPEAKER_00]: A domestic animal?
+
+19
+00:01:08,760 --> 00:01:09,300
+[SPEAKER_01]: Hold on.
+
+20
+00:01:11,481 --> 00:01:13,703
+[SPEAKER_01]: No, it is not a domestic animal.
+
+21
+00:01:14,803 --> 00:01:18,125
+[SPEAKER_01]: Looks like someone's barking up the wrong family tree.
+
+22
+00:01:22,227 --> 00:01:23,848
+[SPEAKER_00]: Is it a carnivore?
+
+23
+00:01:25,369 --> 00:01:26,009
+[SPEAKER_00]: Quick scan.
+
+24
+00:01:28,835 --> 00:01:30,116
+[SPEAKER_01]: No, not a carnivore.
+
+25
+00:01:31,477 --> 00:01:34,319
+[SPEAKER_01]: You might want to sharpen those claws of thought.
+
+26
+00:01:40,123 --> 00:01:41,284
+[SPEAKER_01]: You have to say something.
+
+27
+00:01:41,304 --> 00:01:43,705
+[SPEAKER_00]: Is it a lot heavier than a human?
+
+28
+00:01:45,286 --> 00:01:46,207
+[SPEAKER_01]: Just a second.
+
+29
+00:01:50,730 --> 00:01:53,512
+[SPEAKER_01]: Yes, it is significantly heavier than a human.
+
+30
+00:01:54,560 --> 00:01:57,581
+[SPEAKER_01]: You're definitely not lightweight in your questioning.
+
+31
+00:01:58,781 --> 00:02:00,121
+[SPEAKER_00]: Is it an elephant?
+
+32
+00:02:01,702 --> 00:02:02,202
+[SPEAKER_01]: Hold on.
+
+33
+00:02:04,982 --> 00:02:07,183
+[SPEAKER_01]: No, your guess is not correct.
+
+34
+00:02:08,063 --> 00:02:10,623
+[SPEAKER_01]: Keep trunkting along with those questions.
+
+35
+00:02:15,164 --> 00:02:15,885
+[SPEAKER_01]: Quick scan.
+
+36
+00:02:20,186 --> 00:02:22,186
+[SPEAKER_00]: Is the animal dangerous to humans?
+
+37
+00:02:27,472 --> 00:02:30,533
+[SPEAKER_01]: No, it's not considered dangerous to humans.
+
+38
+00:02:31,553 --> 00:02:34,394
+[SPEAKER_01]: Don't worry, you won't need any armor for this one.
+
+39
+00:02:39,916 --> 00:02:44,797
+[SPEAKER_00]: Does the animal have any patterns on itself?
+
+40
+00:02:46,458 --> 00:02:47,618
+[SPEAKER_01]: Reflecting on that.
+
+41
+00:02:59,710 --> 00:03:02,355
+[SPEAKER_01]: You have asked 10 questions and have to guess.
+
+42
+00:03:03,076 --> 00:03:04,539
+[SPEAKER_00]: It's the animal, a giraffe.
+
+43
+00:03:06,923 --> 00:03:08,867
+[SPEAKER_01]: I am sorry you guessed wrong.
+
+44
+00:03:09,909 --> 00:03:12,193
+[SPEAKER_01]: This concludes this round of the game.
+

@@ -1,0 +1,160 @@
+1
+00:00:00,805 --> 00:00:01,626
+[SPEAKER_00]: That was fun.
+
+2
+00:00:02,546 --> 00:00:04,007
+[SPEAKER_00]: Let's play another game.
+
+3
+00:00:04,848 --> 00:00:06,549
+[SPEAKER_00]: This time you are guessing.
+
+4
+00:00:07,470 --> 00:00:09,031
+[SPEAKER_00]: I am thinking about an animal.
+
+5
+00:00:10,052 --> 00:00:13,294
+[SPEAKER_01]: Does the animal usually swim in water?
+
+6
+00:00:15,316 --> 00:00:17,678
+[SPEAKER_00]: Please start asking me questions.
+
+7
+00:00:18,899 --> 00:00:20,980
+[SPEAKER_01]: Does the animal live in water?
+
+8
+00:00:25,243 --> 00:00:27,385
+[SPEAKER_00]: No, it does not reside in water.
+
+9
+00:00:28,388 --> 00:00:31,369
+[SPEAKER_00]: Hope you're not fishing for clues in the wrong pond.
+
+10
+00:00:32,569 --> 00:00:34,350
+[SPEAKER_01]: Does your animal fly?
+
+11
+00:00:36,050 --> 00:00:37,210
+[SPEAKER_00]: Swiftly checking.
+
+12
+00:00:38,911 --> 00:00:40,351
+[SPEAKER_00]: No, it does not fly.
+
+13
+00:00:41,692 --> 00:00:45,073
+[SPEAKER_00]: Seems like your guesses are having a bit of turbulence.
+
+14
+00:00:45,913 --> 00:00:49,534
+[SPEAKER_01]: Does your animal usually reside in Europe?
+
+15
+00:00:51,194 --> 00:00:53,255
+[SPEAKER_00]: Excuse me, I need to think a bit.
+
+16
+00:00:53,975 --> 00:00:55,676
+[SPEAKER_00]: Yes, it can reside in Europe.
+
+17
+00:00:56,436 --> 00:00:56,796
+[SPEAKER_00]: Eureka.
+
+18
+00:00:57,802 --> 00:00:59,943
+[SPEAKER_00]: somewhat closer to the truth you are.
+
+19
+00:01:02,245 --> 00:01:05,146
+[SPEAKER_01]: Is your animal usually kept as a pet?
+
+20
+00:01:07,148 --> 00:01:07,908
+[SPEAKER_00]: Let me see.
+
+21
+00:01:11,530 --> 00:01:13,732
+[SPEAKER_00]: Yes, it is usually kept as a pet.
+
+22
+00:01:14,932 --> 00:01:16,593
+[SPEAKER_00]: You're barking up the right weight.
+
+23
+00:01:16,773 --> 00:01:18,514
+[SPEAKER_00]: I'm not supposed to say that.
+
+24
+00:01:19,115 --> 00:01:20,896
+[SPEAKER_00]: Keep fetching those questions.
+
+25
+00:01:22,777 --> 00:01:26,119
+[SPEAKER_01]: Is your animal carnivorous?
+
+26
+00:01:32,557 --> 00:01:33,818
+[SPEAKER_00]: You have to say something.
+
+27
+00:01:34,499 --> 00:01:35,940
+[SPEAKER_01]: Is your animal carnivorous?
+
+28
+00:01:39,884 --> 00:01:41,345
+[SPEAKER_00]: Yes, it is carnivorous.
+
+29
+00:01:42,386 --> 00:01:45,069
+[SPEAKER_00]: Salivating at the rate scent I see.
+
+30
+00:01:48,152 --> 00:01:52,536
+[SPEAKER_01]: Does your animal... Is your... Swiftly checking.
+
+31
+00:01:56,265 --> 00:01:59,286
+[SPEAKER_00]: I think you might have missed a part of your question there.
+
+32
+00:01:59,666 --> 00:02:00,166
+[SPEAKER_01]: Yes, I did.
+
+33
+00:02:00,186 --> 00:02:02,687
+[SPEAKER_00]: That was certainly a mysterious attempt.
+
+34
+00:02:06,147 --> 00:02:07,928
+[SPEAKER_01]: Is your animal a type of cat?
+
+35
+00:02:13,589 --> 00:02:15,609
+[SPEAKER_00]: No, it is not a type of cat.
+
+36
+00:02:16,530 --> 00:02:19,070
+[SPEAKER_00]: You're barking up the wrong tree with that guess.
+
+37
+00:02:19,990 --> 00:02:22,351
+[SPEAKER_00]: Try a different category, perhaps.
+
+38
+00:02:23,751 --> 00:02:25,416
+[SPEAKER_01]: Is your animal a type of dog?
+
+39
+00:02:27,864 --> 00:02:30,050
+[SPEAKER_00]: Yes, it is a dog you guessed correctly.
+
+40
+00:02:30,933 --> 00:02:33,200
+[SPEAKER_00]: This concludes this round of the game.
+
